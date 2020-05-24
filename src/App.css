@@ -1,38 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Open+Sans&display=swap");
+/* font-family: 'DM Mono', monospace;
+font-family: 'Open Sans', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
 .App {
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  font-family: "DM Mono", monospace;
+}
+.logo img {
+  display: block;
+  width: 80px;
+  transition: background-color 250ms ease-in-out, transform 150ms ease;
+}
+.logo img:hover {
+  background-color: #dda8cf;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+.nav a {
+  font-size: 1.2em;
+  color: black;
+  padding: 0.75em 1em;
+  display: inline-block;
+  transition: background-color 250ms ease-in-out, transform 150ms ease;
+}
+.nav a:hover {
+  background-color: rgb(130, 130, 172);
+  border-bottom: 1px solid blue;
+  transition: ease-out 250ms;
+  color: white;
+}
+.nav a:focus,
+.nav a:active {
+  color: purple;
+}
+
+.hero {
+  width: 100%;
+  height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "DM Mono", monospace;
+}
+
+.hero-info {
+  padding: 5% 5%;
+  width: 65%;
+  font-weight: bold;
+  outline: double;
+  color: white;
+  background-color: #5e254f;
+  display: flex;
+  flex-direction: column;
+  justify-items: space-around;
+  justify-content: space-evenly;
+  height: 35%;
+}
+.hero-info h2{
+  font-weight: 400;
+}
+img {
+  width: 200px;
+}
+.dark {
+  background-color: #f1f1f1;
+}
+.about-me {
+  margin: 0 auto;
+  text-align: center;
+  padding: 2% 2%;
+  width: 80%;
+  border-radius: 5%;
+  height: calc(100vh - 80px);
+}
+.about-me h3 {
+  font-size: 2.3em;
+  padding: 2% 2%;
+  font-family: "DM Mono", monospace;
+}
+.about-me p {
+  margin: 0 auto;
+  width: 70%;
+  line-height: 1.5;
+  font-size: 1.3em;
+  font-family: "Open Sans", sans-serif;
+}
+.shot img {
+  margin: 0 auto;
+  display: block;
+  /* object-fit: contain; */
+  border-radius: 10%;
+  padding-bottom: 3%;
+  /* filter: sepia(40%); */
+}
+
+.projects {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.projects h2 {
+  text-align: center;
+  font-family: "DM Mono", monospace;
+  padding-bottom: 5%;
+  font-size: 2.3em;
+}
+
+div.grid {
+  margin: 2% 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3%;
+  text-align: center;
+}
+div.grid-item {
+  border: 1px solid black;
+  padding: 10%;
+}
+.grid-item img {
+  display: block;
+  width: 300px;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-bottom: 10%;
+}
+.grid-item h3 {
+  font-family: "DM Mono", monospace;
+  font-weight: 300;
+  padding-bottom: 10%;
+}
+.grid-item p {
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  margin: 0 auto;
+}
+footer {
+  padding: 1%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: #1e2124;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  align-self: flex-end;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button:hover,
+button:focus {
+  background: #1b3657dc;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:active {
+  transform: scale(0.99);
 }

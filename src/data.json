@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "Dance Studio App",
+    "description": "Share your dance ideas within this dance app. Full CRUD functionality",
+    "technology": "HTML5, CSS3, ReactJS, React Router, Ruby on Rails",
+    "github": "https://github.com/GabrielleEaston/dance-studio-app",
+    "url": "https://entertaining-dance.surge.sh",
+    "image": "https://i.imgur.com/h80E7gy.png"
+  },
+  {
+    "id": 2,
+    "title": "Planets App",
+    "description": "App is displaying the information from NASA API.",
+    "technology": "HTML5, CSS3, JavaScript, Axios",
+    "github": "https://github.com/GabrielleEaston/space-app",
+    "url": "https://unwritten-breath.surge.sh",
+    "image": "https://i.imgur.com/87aO4YQ.png"
+  },
+  {
+    "id": 3,
+    "title": "Tech Blog App",
+    "description": "Tech Blog in style of wiki. Come, log in and share your thoughts. Full CRUD functionlity",
+    "technology": "HTML5, CSS3, ReactJs, Express, MongoDB, Mongoose",
+    "github": "https://github.com/GabrielleEaston/hytech",
+    "url": "https://hytech.surge.sh",
+    "image": "https://i.imgur.com/ZOU7BeE.png"
+  },
+  {
+    "id": 4,
+    "title": "DigiEast Photo Lookup",
+    "description": "Search Images and pin your favorites to the board. Images are provided by Unsplash API",
+    "technology": "HTML5, CSS3, ReactJs, React Router, Axios",
+    "github": "https://github.com/GabrielleEaston/digiEast",
+    "url": "https://digi-east.netlify.app",
+    "image": "https://i.imgur.com/Erxf0Hc.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Photo Uploader",
+    "description": "Image Uploader using PHP and mySql",
+    "technology": "HTML5, CSS3, mySQL, PHP",
+    "github": "",
+    "url": "http://citytechcedev.org/fssa/geaston/",
+    "image": "https://i.imgur.com/eD0Rlew.png"
+  },
+  {
+    "id": 6,
+    "title": "Chikalicious restaurant",
+    "description": "Collaboration with UX designers to build a new version of a chick dessert spot.",
+    "technology": "HTML5, CSS3, ReactJs",
+    "github": "https://github.com/GabrielleEaston/chikalicious",
+    "url": "https://chikalicious.surge.sh",
+    "image": "https://i.imgur.com/Szw4bgn.png"
+  },
+  {
+    "id": 7,
+    "title": "Community Center",
+    "description": "Redesign of community center website with Bootstrap.",
+    "technology": "HTML5, CSS3, Bootstrap, JQuery",
+    "github": "https://github.com/GabrielleEaston/community-center-redesign",
+    "url": "https://gabrielleeaston.github.io/community-center-redesign",
+    "image": "https://i.imgur.com/o7NfwGU.png"
+  }
+]
