@@ -388,4 +388,10 @@ and (-webkit-device-pixel-ratio : 3)
   .form-container h4{
     font-size: 1.2em;
   }
+  label{
+    margin-bottom: 0;
+  }
+  input, textarea{
+    border: 2px solid white;
+  }
 }
