@@ -42,8 +42,7 @@ header {
 }
 .nav a:hover {
   background-color: rgb(130, 130, 172);
-  border-bottom: 1px solid rgb(133, 133, 196);
-  transition: ease-out 250ms;
+  transition: ease-in-out 250ms;
   color: white;
 }
 .nav a:focus,
@@ -75,10 +74,12 @@ header {
 }
 .hero-info h1 {
   padding-bottom: 0.6em;
+  font-size: 2.2em;
 }
 .hero-info h2 {
   font-weight: 400;
   padding-bottom: 2em;
+  font-size: 1.7em;
 }
 img {
   width: 200px;
@@ -103,7 +104,7 @@ img {
   margin: 0 auto;
   width: 70%;
   line-height: 1.5;
-  font-size: 1.3em;
+  font-size: 1.6em;
   font-family: "Open Sans", sans-serif;
 }
 .shot img {
@@ -146,22 +147,24 @@ div.grid-item {
   opacity: 0.8;
 }
 
-.grid-item img:hover{
-opacity: 1;
-box-shadow: 2px 5px #141414a4
+.grid-item img:hover {
+  opacity: 1;
+  box-shadow: 2px 5px #141414a4;
 }
 
 .grid-item h3 {
   font-family: "DM Mono", monospace;
   font-weight: 300;
   padding-bottom: 10%;
+  font-size: 1.3em;
 }
 .grid-item p {
   font-family: "Open Sans", sans-serif;
   margin: 0 auto;
   text-align: left;
   padding-left: 12%;
-  line-height: 1.5;
+  line-height: 1.4;
+  font-size: 1.1em;
 }
 p.desc {
   padding-bottom: 3%;
@@ -172,12 +175,13 @@ p.technology {
 footer {
   padding: 1em;
   text-align: center;
-  font-family: 'DM Mono', monospace;
+  font-family: "DM Mono", monospace;
   background-color: #e2dddd;
   width: 100%;
 }
-footer p{
-line-height: 1.7;
+footer p {
+  line-height: 1.7;
+  font-weight: 400;
 }
 
 .hero-info button {
@@ -215,17 +219,97 @@ button:focus {
 button:active {
   transform: scale(0.99);
 }
-a.social-media{
+a.social-media {
   display: inline-block;
-  color: #2d1b4e
+  color: #2d1b4e;
 }
 
-i.fab, i.fas {
+i.fab,
+i.fas {
   width: 40px;
- font-size: 24px;
- transition: ease-out 250ms;
+  font-size: 24px;
+  transition: ease-out 250ms;
 }
-i.fab:hover, i.fas:hover {
+i.fab:hover,
+i.fas:hover {
   color: pink;
   font-size: 32px;
+}
+
+.form-container {
+  background-color: #f1f1f1;
+  padding: 4% 0 10% 0;
+  text-align: center;
+}
+.form-container h3 {
+  font-family: "DM Mono", monospace;
+  padding-bottom: 2%;
+  font-size: 2.1em;
+}
+.form-container p {
+  margin-bottom: 2%;
+  font-family: "DM Mono", monospace;
+  font-weight: 300;
+  font-size: 1.3em;
+}
+.form-container a {
+  color: #2d1b4e;
+}
+.form-container a:hover {
+  color: rgb(97, 9, 75);
+  font-weight: 800;
+}
+
+form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  background-color: #521d5cd1;
+  padding: 5% 2%;
+  color: white;
+  border-radius: 10%;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2), 0 1px 5px rgba(0, 0, 0, 0.2),
+    0 0 0 12px rgba(255, 255, 255, 0.4);
+}
+
+.form-container h4 {
+  text-align: center;
+  padding-bottom: 5%;
+  font-family: "DM Mono", monospace;
+  font-size: 1.7em;
+  font-weight: 300;
+}
+.form-container button {
+  text-align: center;
+  display: block;
+  margin: 2% auto;
+  width: 30%;
+  padding: 2% 1%;
+  font-size: 1.2em;
+  font-family: "DM Mono", monospace;
+}
+.form-container button:hover {
+  color: white;
+}
+input,
+textarea {
+  border: 5px solid white;
+  -webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1),
+    0 0 16px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 0 0 10px 0;
+  width: 100%;
+  font-weight: 700;
+  font-size: 1.1em;
+  font-family: "PT Sans", sans-serif;
+}
+label {
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
