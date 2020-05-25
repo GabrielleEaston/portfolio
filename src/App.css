@@ -40,7 +40,7 @@ header {
 .nav a {
   font-size: 1.5em;
   color: black;
-  padding: 0.6em 0.7em;
+  padding: 0.4em 0.5em;
   display: inline-block;
   transition: background-color 250ms ease-in-out, transform 150ms ease;
 }
