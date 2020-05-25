@@ -20,31 +20,37 @@ header {
   width: 100%;
   font-family: "DM Mono", monospace;
 }
+
 .logo img {
   display: block;
   width: 80px;
   transition: background-color 250ms ease-in-out, transform 150ms ease;
 }
+
 .logo img:hover {
   background-color: #dda8cf;
 }
+
 .nav {
   display: flex;
   justify-content: space-around;
   width: 30%;
 }
+
 .nav a {
-  font-size: 1.2em;
+  font-size: 1.5em;
   color: black;
-  padding: 0.75em 1em;
+  padding: 0.6em 0.7em;
   display: inline-block;
   transition: background-color 250ms ease-in-out, transform 150ms ease;
 }
+
 .nav a:hover {
   background-color: rgb(130, 130, 172);
   transition: ease-in-out 250ms;
   color: white;
 }
+
 .nav a:focus,
 .nav a:active {
   color: purple;
@@ -72,21 +78,26 @@ header {
   justify-content: space-evenly;
   height: 35%;
 }
+
 .hero-info h1 {
   padding-bottom: 0.6em;
   font-size: 2.2em;
 }
+
 .hero-info h2 {
   font-weight: 400;
   padding-bottom: 2em;
   font-size: 1.7em;
 }
+
 img {
   width: 200px;
 }
+
 .dark {
   background-color: #f1f1f1;
 }
+
 .about-me {
   margin: 0 auto;
   text-align: center;
@@ -95,11 +106,13 @@ img {
   border-radius: 5%;
   height: calc(100vh - 80px);
 }
+
 .about-me h3 {
   font-size: 2.1em;
   padding: 2% 2%;
   font-family: "DM Mono", monospace;
 }
+
 .about-me p {
   margin: 0 auto;
   width: 70%;
@@ -133,11 +146,13 @@ div.grid {
   gap: 3%;
   text-align: center;
 }
+
 div.grid-item {
   padding: 10%;
   color: white;
   background-color: #717796;
 }
+
 .grid-item img {
   display: block;
   width: 300px;
@@ -158,6 +173,7 @@ div.grid-item {
   padding-bottom: 10%;
   font-size: 1.3em;
 }
+
 .grid-item p {
   font-family: "Open Sans", sans-serif;
   margin: 0 auto;
@@ -166,12 +182,15 @@ div.grid-item {
   line-height: 1.4;
   font-size: 1.1em;
 }
+
 p.desc {
   padding-bottom: 3%;
 }
+
 p.technology {
   padding-bottom: 5%;
 }
+
 footer {
   padding: 1em;
   text-align: center;
@@ -179,6 +198,7 @@ footer {
   background-color: #e2dddd;
   width: 100%;
 }
+
 footer p {
   line-height: 1.7;
   font-weight: 400;
@@ -202,6 +222,7 @@ footer p {
   align-self: flex-end;
   font-family: "Open Sans", sans-serif;
 }
+
 .hero-info button a {
   color: white;
 }
@@ -219,6 +240,7 @@ button:focus {
 button:active {
   transform: scale(0.99);
 }
+
 a.social-media {
   display: inline-block;
   color: #2d1b4e;
@@ -230,6 +252,7 @@ i.fas {
   font-size: 24px;
   transition: ease-out 250ms;
 }
+
 i.fab:hover,
 i.fas:hover {
   color: pink;
@@ -241,20 +264,24 @@ i.fas:hover {
   padding: 4% 0 10% 0;
   text-align: center;
 }
+
 .form-container h3 {
   font-family: "DM Mono", monospace;
   padding-bottom: 2%;
   font-size: 2.1em;
 }
+
 .form-container p {
   margin-bottom: 2%;
   font-family: "DM Mono", monospace;
   font-weight: 300;
   font-size: 1.3em;
 }
+
 .form-container a {
   color: #2d1b4e;
 }
+
 .form-container a:hover {
   color: rgb(97, 9, 75);
   font-weight: 800;
@@ -272,7 +299,7 @@ form {
   color: white;
   border-radius: 10%;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2), 0 1px 5px rgba(0, 0, 0, 0.2),
-    0 0 0 12px rgba(255, 255, 255, 0.4);
+    0 0 0 8px rgba(255, 255, 255, 0.4);
 }
 
 .form-container h4 {
@@ -282,6 +309,7 @@ form {
   font-size: 1.7em;
   font-weight: 300;
 }
+
 .form-container button {
   text-align: center;
   display: block;
@@ -291,21 +319,23 @@ form {
   font-size: 1.2em;
   font-family: "DM Mono", monospace;
 }
+
 .form-container button:hover {
   color: white;
 }
+
 input,
 textarea {
   border: 5px solid white;
   -webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1),
-    0 0 16px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
-  padding: 15px;
+    0 0 9px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 9px rgba(0, 0, 0, 0.1);
+  padding: 0.5em;
   background: rgba(255, 255, 255, 0.5);
   margin: 0 0 10px 0;
   width: 100%;
-  font-weight: 700;
+  font-weight: 300;
   font-size: 1.1em;
   font-family: "PT Sans", sans-serif;
 }

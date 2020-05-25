@@ -6,7 +6,7 @@ export default function About() {
     <div className="about-me">
         <h3 id="about-me">About Me</h3>
         <div className="shot">
-          <img src={shot} alt="photo of me" />
+          <img src={shot} alt="me" />
         </div>
       <p>
         I am a solutions-oriented Software Engineer who holds over five years
