@@ -1,5 +1,4 @@
 import React from "react";
-//import { Link } from "react-router-dom";
 import logo from "../assets/logo8.png";
 export default function Header() {
   return (
@@ -7,22 +6,21 @@ export default function Header() {
       <div className="logo">
         <img src={logo} alt={logo} />
       </div>
-  
+
       <ul className="nav">
         <li>
-          <a href="#">About</a>
+          <a href="#about-me">About</a>
         </li>
         <li>
-          <a href="#">Portfolio</a>
+          <a href="#projects">Portfolio</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
         <li>
-          <a href="#">Resume</a>
+          <a href="https://docdro.id/JJm8kym" target="_blank">Resume</a>
         </li>
-        </ul>
-  
+      </ul>
     </header>
   );
 }

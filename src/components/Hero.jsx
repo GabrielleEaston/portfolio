@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="hero-info">
         <h1>Gabrielle Easton</h1>
         <h2>Software Developer</h2>
-        <button>View my work</button>
+        <button><a href="#projects">View my work</a></button>
       </div>
       </div>
    

@@ -42,7 +42,7 @@ header {
 }
 .nav a:hover {
   background-color: rgb(130, 130, 172);
-  border-bottom: 1px solid blue;
+  border-bottom: 1px solid rgb(133, 133, 196);
   transition: ease-out 250ms;
   color: white;
 }
@@ -73,8 +73,12 @@ header {
   justify-content: space-evenly;
   height: 35%;
 }
-.hero-info h2{
+.hero-info h1 {
+  padding-bottom: 0.6em;
+}
+.hero-info h2 {
   font-weight: 400;
+  padding-bottom: 2em;
 }
 img {
   width: 200px;
@@ -91,7 +95,7 @@ img {
   height: calc(100vh - 80px);
 }
 .about-me h3 {
-  font-size: 2.3em;
+  font-size: 2.1em;
   padding: 2% 2%;
   font-family: "DM Mono", monospace;
 }
@@ -105,10 +109,8 @@ img {
 .shot img {
   margin: 0 auto;
   display: block;
-  /* object-fit: contain; */
   border-radius: 10%;
-  padding-bottom: 3%;
-  /* filter: sepia(40%); */
+  padding: 4% 0;
 }
 
 .projects {
@@ -120,7 +122,7 @@ img {
   text-align: center;
   font-family: "DM Mono", monospace;
   padding-bottom: 5%;
-  font-size: 2.3em;
+  font-size: 2.1em;
 }
 
 div.grid {
@@ -131,8 +133,9 @@ div.grid {
   text-align: center;
 }
 div.grid-item {
-  border: 1px solid black;
   padding: 10%;
+  color: white;
+  background-color: #717796;
 }
 .grid-item img {
   display: block;
@@ -140,7 +143,14 @@ div.grid-item {
   border: 1px solid black;
   margin: 0 auto;
   margin-bottom: 10%;
+  opacity: 0.8;
 }
+
+.grid-item img:hover{
+opacity: 1;
+box-shadow: 2px 5px #141414a4
+}
+
 .grid-item h3 {
   font-family: "DM Mono", monospace;
   font-weight: 300;
@@ -148,15 +158,29 @@ div.grid-item {
 }
 .grid-item p {
   font-family: "Open Sans", sans-serif;
-  text-align: left;
   margin: 0 auto;
+  text-align: left;
+  padding-left: 12%;
+  line-height: 1.5;
+}
+p.desc {
+  padding-bottom: 3%;
+}
+p.technology {
+  padding-bottom: 5%;
 }
 footer {
-  padding: 1%;
+  padding: 1em;
   text-align: center;
+  font-family: 'DM Mono', monospace;
+  background-color: #e2dddd;
+  width: 100%;
+}
+footer p{
+line-height: 1.7;
 }
 
-button {
+.hero-info button {
   display: inline-block;
   border: none;
   padding: 1rem 2rem;
@@ -172,6 +196,10 @@ button {
   -webkit-appearance: none;
   -moz-appearance: none;
   align-self: flex-end;
+  font-family: "Open Sans", sans-serif;
+}
+.hero-info button a {
+  color: white;
 }
 
 button:hover,
@@ -186,4 +214,18 @@ button:focus {
 
 button:active {
   transform: scale(0.99);
+}
+a.social-media{
+  display: inline-block;
+  color: #2d1b4e
+}
+
+i.fab, i.fas {
+  width: 40px;
+ font-size: 24px;
+ transition: ease-out 250ms;
+}
+i.fab:hover, i.fas:hover {
+  color: pink;
+  font-size: 32px;
 }
