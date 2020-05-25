@@ -350,6 +350,10 @@ and (min-device-width : 375px)
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) 
 {
+  header, .nav{
+    flex-direction: column;
+  }
+
   .hero{
     height: 100%;
   }
