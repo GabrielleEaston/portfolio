@@ -121,10 +121,11 @@ img {
   font-family: "Open Sans", sans-serif;
 }
 .shot img {
+  width: 15%;
   margin: 0 auto;
   display: block;
   border-radius: 10%;
-  padding: 4% 0;
+  padding: 2% 0;
   object-fit: fill;
 }
 
@@ -218,8 +219,7 @@ footer p {
   cursor: pointer;
   text-align: center;
   transition: background 250ms ease-in-out, transform 150ms ease;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+
   align-self: flex-end;
   font-family: "Open Sans", sans-serif;
 }
@@ -353,7 +353,6 @@ and (max-device-width : 550px)
   header, .nav{
     flex-direction: column;
   }
-
   .hero{
     height: 100%;
   }
