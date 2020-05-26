@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Open+Sans&display=swap");
-/* font-family: 'DM Mono', monospace;
-font-family: 'Open Sans', sans-serif; */
+/*/////////////////////////////////////////////
+///////////////// Universal styles /////////////
+///////////////////////////////////////////////*/
 * {
   margin: 0;
   padding: 0;
@@ -8,10 +9,13 @@ font-family: 'Open Sans', sans-serif; */
   text-decoration: none;
   list-style: none;
 }
-
 .App {
   margin: 0 auto;
 }
+
+/*/////////////////////////////////
+////////////Header////////////////
+//////////////////////////////////*/
 
 header {
   display: flex;
@@ -30,6 +34,10 @@ header {
 .logo img:hover {
   background-color: #dda8cf;
 }
+
+/*///////////////////////////////
+////////////Navigation///////////
+////////////////////////////////*/
 
 .nav {
   display: flex;
@@ -55,6 +63,10 @@ header {
 .nav a:active {
   color: purple;
 }
+
+/*////////////////////////////////
+////////////Hero section//////////
+/////////////////////////////////*/
 
 .hero {
   width: 100%;
@@ -93,9 +105,9 @@ background-size: cover;
   font-size: 1.7em;
 }
 
-img {
-  width: 200px;
-}
+/*////////////////////////////////////
+/////////////About me/////////////////
+/////////////////////////////////////*/
 
 .dark {
   background-color: #f1f1f1;
@@ -132,6 +144,10 @@ img {
   object-fit: fill;
 }
 
+/*///////////////////////////////////////
+///////////Portfolio showcase////////////
+/////////////////////////////////////////*/
+
 .projects {
   padding-top: 10%;
   padding-bottom: 10%;
@@ -147,7 +163,9 @@ background-size: cover;
   padding-bottom: 5%;
   font-size: 2.1em;
 }
-
+/*////////////////////////////////
+/////////////Grid////////////////
+/////////////////////////////////*/
 div.grid {
   margin: 2% 5%;
   display: grid;
@@ -199,7 +217,9 @@ p.desc {
 p.technology {
   padding-bottom: 5%;
 }
-
+/*////////////////////////////////
+//////////////Footer//////////////
+//////////////////////////////////*/
 footer {
   padding: 1em;
   text-align: center;
@@ -212,6 +232,10 @@ footer p {
   line-height: 1.7;
   font-weight: 400;
 }
+
+/*////////////////////////
+///////////Buttons//////////
+////////////////////////////*/
 
 .hero-info button {
   display: inline-block;
@@ -248,6 +272,10 @@ button:active {
   transform: scale(0.99);
 }
 
+/*/////////////////////////////////////////
+/////////////Social media icons//////////
+//////////////////////////////////////////*/
+
 a.social-media {
   display: inline-block;
   color: #2d1b4e;
@@ -266,6 +294,10 @@ i.fas:hover {
   color: pink;
   font-size: 32px;
 }
+
+/*//////////////////////////////////////////////////
+//////////////Contact me section////////////////////
+/////////////////////////////////////////////////////*/
 
 .form-container {
   background-color: #f1f1f1;
@@ -355,6 +387,11 @@ label {
 p.response {
   text-align: center;
 }
+
+/*///////////////////////////////////////////
+///////////////Media queries///////////////
+////////////////////////////////////////////*/
+
 @media only screen and (max-device-width: 550px) /* and (max-device-width: 812px) */ /* and (-webkit-device-pixel-ratio: 3) */ {
   header,
   .nav {
