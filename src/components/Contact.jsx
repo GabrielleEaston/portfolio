@@ -27,8 +27,8 @@ export default class MyForm extends React.Component {
         <input required type="email" name="email" />
         <label htmlFor="message">Message:</label>
         <textarea type="text" rows="5" cols="33" name="message" />
-        {status === "SUCCESS" ? <p>Thank you for getting in touch!<br />I will get back to you ASP!</p> : <button>Send</button>}
-        {status === "ERROR" && <p>Ooops! There was an error.</p>}
+        {status === "SUCCESS" ? <p className="response">Thank you for getting in touch!<br />I will get back to you ASP!</p> : <button>Send</button>}
+        {status === "ERROR" && <p className="response"> Ooops! There was an error.</p>}
         </form>
         </div>
     );
