@@ -360,11 +360,17 @@ p.response {
   .nav {
     flex-direction: column;
   }
-  
+  .hero{
+    background-color: #1e2124;
+  }
   .hero-info {
     width: 100%;
+    padding: 5% 5%;
   }
-  
+  .hero-info button {
+    align-self: center;
+
+  }
   .shot img {
     width: 60%;
   }
@@ -390,6 +396,9 @@ p.response {
   }
   form {
     width: 80%;
+  }
+  .form-container{
+    background-color: #f1f1f1;
   }
   .form-container h4 {
     font-size: 1.2em;
