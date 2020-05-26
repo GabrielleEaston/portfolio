@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "title": "DigiEast Photo Lookup",
+    "title": "Photo Lookup",
     "description": "Search Images and pin your favorites to the board. Images are provided by Unsplash API",
     "technology": "HTML5, CSS3, React, React Router, Axios",
     "github": "https://github.com/GabrielleEaston/digiEast",
@@ -46,7 +46,7 @@
   },
   {
     "id": 6,
-    "title": "Chikalicious restaurant",
+    "title": "Chikalicious",
     "description": "Collaboration with UX designers to build a new version of a chick dessert spot.",
     "technology": "HTML5, CSS3, React",
     "github": "https://github.com/GabrielleEaston/chikalicious",
