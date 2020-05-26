@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Dance Studio App",
     "description": "Share your dance ideas within this dance app. Full CRUD functionality",
-    "technology": "HTML5, CSS3, ReactJS, React Router, Ruby on Rails",
+    "technology": "HTML5, CSS3, React, React Router, Ruby on Rails",
     "github": "https://github.com/GabrielleEaston/dance-studio-app",
     "url": "https://entertaining-dance.surge.sh",
     "image": "https://i.imgur.com/h80E7gy.png"
@@ -21,7 +21,7 @@
     "id": 3,
     "title": "Tech Blog App",
     "description": "Tech Blog in style of wiki. Come, log in and share your thoughts. Full CRUD functionlity",
-    "technology": "HTML5, CSS3, ReactJs, Express, MongoDB, Mongoose",
+    "technology": "HTML5, CSS3, React, Express, MongoDB, Mongoose",
     "github": "https://github.com/GabrielleEaston/hytech",
     "url": "https://hytech.surge.sh",
     "image": "https://i.imgur.com/ZOU7BeE.png"
@@ -30,7 +30,7 @@
     "id": 4,
     "title": "DigiEast Photo Lookup",
     "description": "Search Images and pin your favorites to the board. Images are provided by Unsplash API",
-    "technology": "HTML5, CSS3, ReactJs, React Router, Axios",
+    "technology": "HTML5, CSS3, React, React Router, Axios",
     "github": "https://github.com/GabrielleEaston/digiEast",
     "url": "https://digi-east.netlify.app",
     "image": "https://i.imgur.com/Erxf0Hc.jpg"
@@ -48,7 +48,7 @@
     "id": 6,
     "title": "Chikalicious restaurant",
     "description": "Collaboration with UX designers to build a new version of a chick dessert spot.",
-    "technology": "HTML5, CSS3, ReactJs",
+    "technology": "HTML5, CSS3, React",
     "github": "https://github.com/GabrielleEaston/chikalicious",
     "url": "https://chikalicious.surge.sh",
     "image": "https://i.imgur.com/Szw4bgn.png"
