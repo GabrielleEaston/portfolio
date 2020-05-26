@@ -361,15 +361,18 @@ p.response {
     flex-direction: column;
   }
   .hero{
-    background-color: #1e2124;
+    background-color: #5e254f;
   }
   .hero-info {
     width: 100%;
     padding: 5% 5%;
   }
   .hero-info button {
-    align-self: center;
+    align-self: flex-start;
 
+  }
+  .hero-info h1{
+    font-size: 1.9em
   }
   .shot img {
     width: 60%;
