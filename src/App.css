@@ -360,15 +360,11 @@ p.response {
   .nav {
     flex-direction: column;
   }
-  .hero {
-    height: 100%;
-  }
+  
   .hero-info {
     width: 100%;
   }
-  .about-me {
-    height: 100%;
-  }
+  
   .shot img {
     width: 60%;
   }
