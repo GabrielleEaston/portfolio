@@ -237,6 +237,12 @@ footer p {
 ///////////Buttons//////////
 ////////////////////////////*/
 
+button:hover,
+button:focus{
+  background: #1d223c;
+  color: #f3edf1;
+}
+
 a.hero-button {
   display: inline-block;
   border: none;
@@ -255,9 +261,8 @@ a.hero-button {
 }
 
 a.hero-button:hover,
-a.hero-button:focus,
-button:hover,
-button:focus {
+a.hero-button:focus
+ {
   background: #f2d4a7;
   color: #1d223c;
 }
