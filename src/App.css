@@ -46,16 +46,16 @@ header {
 }
 
 .nav a {
+  display: inline-block;
   font-size: 1.3em;
   color: black;
-  padding: 0.4em 0.5em;
-  display: inline-block;
-  transition: background-color 250ms ease-in-out, transform 150ms ease;
+  background-color: transparent;
+  padding: 0.5em 0.7em;
+  transition: 0.3s ease-in-out;
 }
 
 .nav a:hover {
   background-color: rgb(130, 130, 172);
-  transition: ease-in-out 250ms;
   color: white;
 }
 
