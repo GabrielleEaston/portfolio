@@ -237,7 +237,7 @@ footer p {
 ///////////Buttons//////////
 ////////////////////////////*/
 
-.hero-info button {
+a.hero-button {
   display: inline-block;
   border: none;
   padding: 1rem 2rem;
@@ -254,21 +254,21 @@ footer p {
   font-family: "Open Sans", sans-serif;
 }
 
-.hero-info button a {
+a.hero-button {
   color: white;
 }
 
-button:hover,
+a.hero-button:hover, a.hero-button:focus ,button:hover,
 button:focus {
   background: #1b3657dc;
 }
 
-button:focus {
+a.hero-button:focus, button:focus {
   outline: 1px solid #fff;
   outline-offset: -4px;
 }
 
-button:active {
+button:active, a.hero-button:active {
   transform: scale(0.99);
 }
 
