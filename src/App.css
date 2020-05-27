@@ -151,8 +151,8 @@ header {
 .projects {
   padding-top: 10%;
   padding-bottom: 10%;
-  background-color: #8a7d9c;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%239061aa'/%3E%3Cstop offset='1' stop-color='%23efffe3'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23878f7c' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23878f7c' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2'%3E%3Cstop offset='0' stop-color='%23878f7c' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23878f7c' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E");
+  background-color: #987c95;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23987c95'/%3E%3Cstop offset='1' stop-color='%2393829e'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23f2d4a7' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23f2d4a7' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2'%3E%3Cstop offset='0' stop-color='%23f2d4a7' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23f2d4a7' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -177,7 +177,7 @@ div.grid {
 div.grid-item {
   padding: 10%;
   color: #faf7f8;
-  background-color: #9187a1;
+  background-color: #6e667a;
 }
 
 .grid-item img {
@@ -191,7 +191,7 @@ div.grid-item {
 
 .grid-item img:hover {
   opacity: 1;
-  box-shadow: 2px 5px #141414a4;
+  box-shadow: 2px 5px #f2d4a7;
 }
 
 .grid-item h3 {
@@ -243,8 +243,8 @@ a.hero-button {
   padding: 1.2rem 2.2rem;
   margin: 0;
   text-decoration: none;
-  background: #f2d4a7;
-  color: #291e2d;
+  background: #1d223c;
+  color: #f3edf1;
   font-family: sans-serif;
   font-size: 1rem;
   cursor: pointer;
@@ -258,8 +258,8 @@ a.hero-button:hover,
 a.hero-button:focus,
 button:hover,
 button:focus {
-  background: #1d223c;
-  color: #f3edf1;
+  background: #f2d4a7;
+  color: #1d223c;
 }
 
 a.hero-button:focus,
@@ -292,8 +292,12 @@ i.fas {
 
 i.fab:hover,
 i.fas:hover {
-  color: pink;
+  color: #f2d4a7;
   font-size: 32px;
+}
+
+i.footer-icons:hover {
+  color: #291e2d;
 }
 
 /*//////////////////////////////////////////////////
