@@ -238,7 +238,7 @@ footer p {
 ////////////////////////////*/
 
 button:hover,
-button:focus{
+button:focus {
   background: #1d223c;
   color: #f3edf1;
 }
@@ -261,8 +261,7 @@ a.hero-button {
 }
 
 a.hero-button:hover,
-a.hero-button:focus
- {
+a.hero-button:focus {
   background: #f2d4a7;
   color: #1d223c;
 }
@@ -413,6 +412,7 @@ p.response {
   .hero-info {
     width: 100%;
     padding: 5% 5%;
+    background-color: #7a718a;
   }
   .hero-info button {
     align-self: flex-start;
@@ -445,6 +445,7 @@ p.response {
   }
   form {
     width: 80%;
+    border-radius: inherit;
   }
   .form-container {
     background-color: #f1f1f1;
@@ -454,6 +455,7 @@ p.response {
   }
   label {
     margin-bottom: 0;
+    text-transform: inherit;
   }
   input,
   textarea {
