@@ -57,6 +57,7 @@ header {
 .nav a:hover {
   background-color: #1d223c;
   color: #faf7f8;
+  font-weight: bold;
 }
 
 .nav a:focus,
@@ -264,6 +265,7 @@ a.hero-button:hover,
 a.hero-button:focus {
   background: #f2d4a7;
   color: #1d223c;
+  font-weight: bold;
 }
 
 a.hero-button:focus,
@@ -332,7 +334,7 @@ i.footer-icons:hover {
 }
 
 .form-container a:hover {
-  color: rgb(97, 9, 75);
+  color: #5f67a6;
   font-weight: 800;
 }
 
@@ -414,7 +416,7 @@ p.response {
   .hero-info {
     width: 100%;
     padding: 5% 5%;
-    background-color: #5f67a6;;
+    background-color: #5f67a6;
   }
 }
 
