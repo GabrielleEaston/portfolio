@@ -427,6 +427,7 @@ p.response {
   }
   .hero {
     background-color: #69dcd1ab;
+    height: 100%;
   }
   .hero-info {
     width: 100%;
