@@ -402,14 +402,19 @@ p.response {
 ////////////////////////////////////////////*/
 
 @media only screen and (max-device-width: 800px) {
-  .nav{
+  .nav {
     width: inherit;
   }
   .about-me p {
     width: 80%;
   }
-  form{
+  form {
     width: 60%;
+  }
+  .hero-info {
+    width: 100%;
+    padding: 5% 5%;
+    background-color: #7a718a;
   }
 }
 
