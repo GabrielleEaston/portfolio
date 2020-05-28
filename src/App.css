@@ -401,6 +401,18 @@ p.response {
 ///////////////Media queries///////////////
 ////////////////////////////////////////////*/
 
+@media only screen and (max-device-width: 800px) {
+  .nav{
+    width: inherit;
+  }
+  .about-me p {
+    width: 80%;
+  }
+  form{
+    width: 60%;
+  }
+}
+
 @media only screen and (max-device-width: 550px) /* and (max-device-width: 812px) */ /* and (-webkit-device-pixel-ratio: 3) */ {
   header,
   .nav {
