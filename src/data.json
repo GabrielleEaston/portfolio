@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Chikalicious",
-    "description": "Collaboration project with UX designers. Website redesign",
+    "description": "Collaboration project with UX designers.",
     "technology": "HTML5 | CSS3 | React",
     "github": "https://github.com/GabrielleEaston/chikalicious",
     "url": "https://chikalicious.surge.sh",
@@ -10,9 +10,9 @@
   },
   {
     "id": 2,
-    "title": "Dance Studio App",
-    "description": "Share your dance ideas within this dance app. Full CRUD functionality",
-    "technology": "HTML5 | CSS3 | React | React Router | Ruby on Rails",
+    "title": "Dance Studio",
+    "description": "Content Management system for the Dance Studio. Instructors logs in to: add/edit/delete new classes",
+    "technology": "Ruby on Rails backend API | ReactJS | React Router | JWT | BCrypt | Postgresql | JSON | CSS3",
     "github": "https://github.com/GabrielleEaston/dance-studio-app",
     "url": "https://entertaining-dance.surge.sh",
     "image": "https://i.imgur.com/h80E7gy.png"
@@ -20,8 +20,8 @@
   {
     "id": 3,
     "title": "Tech Blog App",
-    "description": "Tech Blog in style of wiki. Come, log in and share your thoughts. Full CRUD functionlity",
-    "technology": "HTML5 | CSS3 | React | Express | MongoDB | Mongoose",
+    "description": "Tech Blog for newbies in tech world. Users can log in: post and share their experiences in the tech industry",
+    "technology": "React | ExpressJS | MongoDB | Mongoose | CSS3",
     "github": "https://github.com/GabrielleEaston/hytech",
     "url": "https://hytech.surge.sh",
     "image": "https://i.imgur.com/ZOU7BeE.png"
@@ -29,8 +29,8 @@
   {
     "id": 4,
     "title": "Planets App",
-    "description": "App is displaying the information from NASA API.",
-    "technology": "HTML5 | CSS3 | JavaScript | Axios",
+    "description": "App is for educational purposes about the Space and browsing images from NASA Api.",
+    "technology": "HTML5 | CSS3 | Vanilla JavaScript | Axios",
     "github": "https://github.com/GabrielleEaston/space-app",
     "url": "https://unwritten-breath.surge.sh",
     "image": "https://i.imgur.com/87aO4YQ.png"
@@ -46,9 +46,9 @@
   },
   {
     "id": 6,
-    "title": "Photo Uploader",
-    "description": "Image Uploader using PHP and mySql",
-    "technology": "HTML5 | CSS3 | mySQL | PHP",
+    "title": "Photography Website",
+    "description": "Upload images to your portfolio website",
+    "technology": "mySQL | PHP | HTML5 | CSS3 | ",
     "github": "",
     "url": "http://citytechcedev.org/fssa/geaston/",
     "image": "https://i.imgur.com/l1Wjyfh.png"
@@ -56,7 +56,7 @@
   {
     "id": 7,
     "title": "Community Center",
-    "description": "Redesign of community center website with Bootstrap.",
+    "description": "Redesign of community center outdated website.",
     "technology": "HTML5 | CSS3 | Bootstrap | JQuery",
     "github": "https://github.com/GabrielleEaston/community-center-redesign",
     "url": "https://gabrielleeaston.github.io/community-center-redesign",
