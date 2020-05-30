@@ -1,6 +1,6 @@
 [
   {
-    "id": 6,
+    "id": 1,
     "title": "Chikalicious",
     "description": "Collaboration project with UX designers. Website redesign",
     "technology": "HTML5 | CSS3 | React",
@@ -9,7 +9,7 @@
     "image": "https://i.imgur.com/Szw4bgn.png"
   },
   {
-    "id": 1,
+    "id": 2,
     "title": "Dance Studio App",
     "description": "Share your dance ideas within this dance app. Full CRUD functionality",
     "technology": "HTML5 | CSS3 | React | React Router | Ruby on Rails",
@@ -27,7 +27,7 @@
     "image": "https://i.imgur.com/ZOU7BeE.png"
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "Planets App",
     "description": "App is displaying the information from NASA API.",
     "technology": "HTML5 | CSS3 | JavaScript | Axios",
@@ -36,7 +36,7 @@
     "image": "https://i.imgur.com/87aO4YQ.png"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Photo Lookup",
     "description": "Search Images and pin your favorites to the board. Images are provided by Unsplash API",
     "technology": "HTML5 | CSS3 | React | React Router | Axios",
@@ -45,7 +45,7 @@
     "image": "https://i.imgur.com/Erxf0Hc.jpg"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Photo Uploader",
     "description": "Image Uploader using PHP and mySql",
     "technology": "HTML5 | CSS3 | mySQL | PHP",
