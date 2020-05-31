@@ -3,10 +3,11 @@
     "id": 1,
     "title": "Chikalicious",
     "description": "Collaboration project with UX designers.",
-    "technology": "HTML5 | CSS3 | React",
+    "technology": "HTML5 | CSS3 | ReactJS",
     "github": "https://github.com/GabrielleEaston/chikalicious",
     "url": "https://chikalicious.surge.sh",
-    "image": "https://i.imgur.com/Szw4bgn.png"
+    "image": "https://i.imgur.com/Szw4bgn.png",
+    "gif": "https://imgur.com/q1wukuo.png"
   },
   {
     "id": 2,
@@ -15,43 +16,48 @@
     "technology": "Ruby on Rails backend API | ReactJS | React Router | JWT | BCrypt | Postgresql | JSON | CSS3",
     "github": "https://github.com/GabrielleEaston/dance-studio-app",
     "url": "https://entertaining-dance.surge.sh",
-    "image": "https://i.imgur.com/h80E7gy.png"
+    "image": "https://i.imgur.com/h80E7gy.png",
+    "gif": "https://i.imgur.com/ftXc83w.png"
   },
   {
     "id": 3,
     "title": "Tech Blog App",
-    "description": "Tech Blog for newbies in tech world. Users can log in: post and share their experiences in the tech industry",
-    "technology": "React | ExpressJS | MongoDB | Mongoose | CSS3",
+    "description": "Tech Blog for newbies in tech world. Users can log in and post their experiences from the tech world",
+    "technology": "ReactJS | ExpressJS | JWT | MongoDB | Mongoose | CSS3",
     "github": "https://github.com/GabrielleEaston/hytech",
     "url": "https://hytech.surge.sh",
-    "image": "https://i.imgur.com/ZOU7BeE.png"
+    "image": "https://i.imgur.com/ZOU7BeE.png",
+    "gif": "https://imgur.com/D9fMCHB.png"
   },
   {
     "id": 4,
     "title": "Planets App",
     "description": "App is for educational purposes about the Space and browsing images from NASA Api.",
-    "technology": "HTML5 | CSS3 | Vanilla JavaScript | Axios",
+    "technology": "HTML5 | CSS3 | Vanilla JavaScript | NASA API",
     "github": "https://github.com/GabrielleEaston/space-app",
     "url": "https://unwritten-breath.surge.sh",
-    "image": "https://i.imgur.com/87aO4YQ.png"
+    "image": "https://i.imgur.com/87aO4YQ.png",
+    "gif": "https://imgur.com/RLdGTet.png"
   },
   {
     "id": 5,
     "title": "Photo Lookup",
     "description": "Search Images and pin your favorites to the board. Images are provided by Unsplash API",
-    "technology": "HTML5 | CSS3 | React | React Router | Axios",
+    "technology": "HTML5 | CSS3 | ReactJS | React Router | Unsplash API",
     "github": "https://github.com/GabrielleEaston/digiEast",
     "url": "https://digi-east.netlify.app",
-    "image": "https://i.imgur.com/Erxf0Hc.jpg"
+    "image": "https://i.imgur.com/Erxf0Hc.jpg",
+    "gif": "https://imgur.com/TctaJSU.png"
   },
   {
     "id": 6,
     "title": "Photography Website",
     "description": "Upload images to your portfolio website",
-    "technology": "mySQL | PHP | HTML5 | CSS3 | ",
+    "technology": "mySQL | PHP | HTML5 | CSS3  ",
     "github": "",
     "url": "http://citytechcedev.org/fssa/geaston/",
-    "image": "https://i.imgur.com/l1Wjyfh.png"
+    "image": "https://i.imgur.com/l1Wjyfh.png",
+    "gif": "https://imgur.com/1CbbLtc.png"
   },
   {
     "id": 7,
@@ -60,6 +66,7 @@
     "technology": "HTML5 | CSS3 | Bootstrap | JQuery",
     "github": "https://github.com/GabrielleEaston/community-center-redesign",
     "url": "https://gabrielleeaston.github.io/community-center-redesign",
-    "image": "https://i.imgur.com/o7NfwGU.png"
+    "image": "https://i.imgur.com/o7NfwGU.png",
+    "gif": "https://imgur.com/WYuPAJA.png"
   }
 ]

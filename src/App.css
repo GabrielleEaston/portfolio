@@ -184,14 +184,14 @@ div.grid-item {
 .grid-item img {
   display: block;
   width: 90%;
+  height: 300px;
   border: 1px solid black;
   margin: 0 auto;
   margin-bottom: 10%;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .grid-item img:hover {
-  opacity: 1;
   box-shadow: 2px 5px #f2d4a7;
 }
 
