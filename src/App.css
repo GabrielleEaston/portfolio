@@ -52,6 +52,7 @@ header {
   background-color: transparent;
   padding: 0.5em 0.7em;
   transition: 0.3s ease-in-out;
+  text-transform: uppercase;
 }
 
 .nav a:hover {
@@ -60,9 +61,8 @@ header {
   font-weight: bold;
 }
 
-.nav a:focus,
-.nav a:active {
-  color: #69dcd1ab;
+.nav a:active, .nav a:focus {
+  background-color: #1d6b666d;
 }
 
 /*////////////////////////////////
