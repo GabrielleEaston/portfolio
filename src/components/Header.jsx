@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/logo8.png";
+import { HashLink as Link } from "react-router-hash-link";
 export default function Header() {
   return (
     <header>
@@ -9,13 +10,19 @@ export default function Header() {
 
       <ul className="nav">
         <li>
-          <a href="#about-me">About</a>
+          <Link smooth to="#about-me">
+            About
+          </Link>
         </li>
         <li>
-          <a href="#projects">Portfolio</a>
+          <Link smooth to="#projects">
+            Portfolio
+          </Link>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <Link smooth to="#contact">
+            Contact
+          </Link>
         </li>
         <li>
           <a
