@@ -179,8 +179,8 @@ div.grid {
 
 div.grid-item {
   padding: 10%;
-  color: #faf7f8;
-  background-color: #1d6b66;
+  color: #111111;
+  background-color: #cccdd294;
 }
 
 .grid-item img {
@@ -199,7 +199,7 @@ div.grid-item {
 
 .grid-item h3 {
   font-family: "DM Mono", monospace;
-  font-weight: 300;
+  font-weight: 800;
   padding-bottom: 10%;
   font-size: 1.3em;
 }
