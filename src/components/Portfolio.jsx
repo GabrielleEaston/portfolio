@@ -30,9 +30,9 @@ export default class Portfolio extends Component {
                   alt={project.title}
                   onMouseOver={e => (e.currentTarget.src = project.gif)}
                   onMouseLeave={e => (e.currentTarget.src = project.image)}
-            
                 />
               </a>
+              <span className="hover">Hover the image for DEMO</span>
               <p className="desc">{project.description}</p>
               <p className="technology">{project.technology}</p>
               <a

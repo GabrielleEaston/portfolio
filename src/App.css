@@ -210,7 +210,14 @@ div.grid-item {
   line-height: 1.4;
   font-size: 1.1em;
 }
+span.hover {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 5%;
 
+}
 p.desc {
   padding-bottom: 3%;
 }
@@ -468,6 +475,9 @@ p.response {
   .grid-item p {
     font-size: 1em;
     padding-left: 8%;
+  }
+  span.hover {
+    display: none;
   }
   form {
     width: 80%;
