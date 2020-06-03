@@ -180,7 +180,6 @@ div.grid-item {
   padding: 5%;
   color: #111111;
   background-color: #cccdd294;
-  
 }
 
 .grid-item img {
@@ -440,6 +439,9 @@ p.response {
   }
   .hero-info h1 {
     font-size: 1.9em;
+  }
+  .about-me {
+    height: 100%;
   }
   .shot img {
     width: 60%;
