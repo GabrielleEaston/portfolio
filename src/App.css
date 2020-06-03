@@ -171,13 +171,13 @@ header {
 div.grid {
   margin: 2% 5%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 3%;
   text-align: center;
 }
 
 div.grid-item {
-  padding: 10%;
+  padding: 5%;
   color: #111111;
   background-color: #cccdd294;
   
@@ -185,12 +185,11 @@ div.grid-item {
 
 .grid-item img {
   display: block;
-  width: 90%;
+  width: 60%;
   height: 300px;
   margin: 0 auto;
   margin-bottom: 10%;
   opacity: 1;
-  border-radius: 5%;
 }
 
 .grid-item img:hover {

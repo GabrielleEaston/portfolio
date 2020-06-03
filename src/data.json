@@ -29,16 +29,7 @@
     "image": "https://i.imgur.com/ZOU7BeE.png",
     "gif": "https://imgur.com/D9fMCHB.png"
   },
-  {
-    "id": 5,
-    "title": "Planets App",
-    "description": "App is for educational purposes about the Space and browsing images from NASA Api. User interface is fully CSS3",
-    "technology": "HTML5 | CSS3 | Vanilla JavaScript | NASA API | Responsive Design",
-    "github": "https://github.com/GabrielleEaston/space-app",
-    "url": "https://unwritten-breath.surge.sh",
-    "image": "https://i.imgur.com/87aO4YQ.png",
-    "gif": "https://imgur.com/RLdGTet.png"
-  },
+
   {
     "id": 4,
     "title": "Photo Lover",
@@ -50,6 +41,16 @@
     "gif": "https://imgur.com/TctaJSU.png"
   },
   {
+    "id": 5,
+    "title": "Planets App",
+    "description": "App is for educational purposes about the Space and browsing images from NASA Api. User interface is fully CSS3",
+    "technology": "HTML5 | CSS3 | Vanilla JavaScript | NASA API | Responsive Design",
+    "github": "https://github.com/GabrielleEaston/space-app",
+    "url": "https://unwritten-breath.surge.sh",
+    "image": "https://i.imgur.com/87aO4YQ.png",
+    "gif": "https://imgur.com/RLdGTet.png"
+  },
+  {
     "id": 6,
     "title": "Photography Website",
     "description": "Upload images to your portfolio website. Through out this project I learnt how to connect SQL database and PHP backend, deploy the website using Filezilla to a school server",
@@ -58,15 +59,5 @@
     "url": "http://citytechcedev.org/fssa/geaston/",
     "image": "https://i.imgur.com/l1Wjyfh.png",
     "gif": "https://imgur.com/1CbbLtc.png"
-  },
-  {
-    "id": 7,
-    "title": "Community Center",
-    "description": "Redesign of community center outdated website with Bootstrap. Responsive on three screens.",
-    "technology": "HTML5 | CSS3 | Bootstrap | JQuery | Responsive Design",
-    "github": "https://github.com/GabrielleEaston/community-center-redesign",
-    "url": "https://gabrielleeaston.github.io/community-center-redesign",
-    "image": "https://i.imgur.com/o7NfwGU.png",
-    "gif": "https://imgur.com/WYuPAJA.png"
   }
 ]
