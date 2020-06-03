@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import data from "../data.json";
-
+import { motion } from "framer-motion";
 export default class Portfolio extends Component {
   state = {
     projects: data,
@@ -8,7 +8,6 @@ export default class Portfolio extends Component {
   };
 
   render() {
-  
     const { projects } = this.state;
     return (
       <section className="projects">
@@ -18,17 +17,21 @@ export default class Portfolio extends Component {
             <div className="grid-item" key={project.id}>
               <h3>{project.title}</h3>
               <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <img
+                <motion.img
+                  initial={{
+                    opacity: 0
+                  }}
+                  animate={{
+                    opacity: 1
+                  }}
+                  transition={{ duration: 1 }}
+                  whileHover={{ scale: 1.1 }}
                   src={project.image}
                   alt={project.title}
                   onMouseOver={e => (e.currentTarget.src = project.gif)}
                   onMouseLeave={e => (e.currentTarget.src = project.image)}
-        //           onMouseOut={() => this.setState({hovered: false})}
-        // onMouseOver={() => this.setState({hovered: true})}
-       
-                 
+            
                 />
-              
               </a>
               <p className="desc">{project.description}</p>
               <p className="technology">{project.technology}</p>

@@ -180,16 +180,17 @@ div.grid-item {
   padding: 10%;
   color: #111111;
   background-color: #cccdd294;
+  
 }
 
 .grid-item img {
   display: block;
   width: 90%;
   height: 300px;
-  border: 1px solid black;
   margin: 0 auto;
   margin-bottom: 10%;
   opacity: 1;
+  border-radius: 5%;
 }
 
 .grid-item img:hover {
