@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
 /*/////////////////////////////////////////////
 ///////////////// Universal styles /////////////
 ///////////////////////////////////////////////*/
@@ -76,7 +77,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "DM Mono", monospace;
+  /* font-family: "DM Mono", monospace; */
+  font-family: 'Piedra', cursive;
   background: linear-gradient(
       to top,
       rgba(245, 246, 252, 0.52),
@@ -89,10 +91,9 @@ header {
 
 .hero-info {
   padding: 5% 5%;
-  width: 65%;
+  width: 70%;
   font-weight: bold;
   color: #faf7f8;
-  /* background-color: #5f67a6; */
   display: flex;
   flex-direction: column;
   justify-items: space-around;
@@ -101,14 +102,17 @@ header {
 }
 
 .hero-info h1 {
+  letter-spacing: 8px;
   padding-bottom: 0.6em;
-  font-size: 2.8em;
+  font-size: 5em;
 }
 
 .hero-info h2 {
-  font-weight: 400;
+  letter-spacing: 8px;
+  font-weight: 800;
   padding-bottom: 2.2em;
-  font-size: 1.8em;
+  font-size: 2.9em;
+  letter-spacing: 2px;
 }
 
 /*////////////////////////////////////
