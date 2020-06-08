@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Open+Sans&display=swap");
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,800&display=swap');
 /*/////////////////////////////////////////////
 ///////////////// Universal styles /////////////
@@ -77,7 +77,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* font-family: "DM Mono", monospace; */
   font-family: 'Oswald', sans-serif;
   background: linear-gradient(
       to top,
@@ -92,7 +91,6 @@ header {
 .hero-info {
   padding: 5% 5%;
   width: 70%;
-  /* font-weight: bold; */
   color: #faf7f8;
   display: flex;
   flex-direction: column;
@@ -135,7 +133,7 @@ header {
 .about-me h3 {
   font-size: 2.1em;
   padding: 2% 2%;
-  font-family: "DM Mono", monospace;
+  font-family: "Oswald", sans-serif;
 }
 
 .about-me p {
@@ -143,7 +141,7 @@ header {
   width: 70%;
   line-height: 1.5;
   font-size: 1.6em;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 .shot img {
   width: 15%;
@@ -168,7 +166,7 @@ header {
 
 .projects h2 {
   text-align: center;
-  font-family: "DM Mono", monospace;
+  font-family: "Oswald", sans-serif;
   padding-bottom: 5%;
   padding-top: 5%;
   font-size: 2.1em;
@@ -203,14 +201,14 @@ div.grid-item {
 }
 
 .grid-item h3 {
-  font-family: "DM Mono", monospace;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   padding-bottom: 10%;
   font-size: 1.3em;
 }
 
 .grid-item p {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   margin: 0 auto;
   text-align: left;
   padding-left: 5%;
@@ -221,7 +219,7 @@ span.hover {
   display: inline-block;
   text-transform: uppercase;
   font-weight: bold;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   margin-bottom: 5%;
 }
 p.desc {
@@ -237,7 +235,7 @@ p.technology {
 footer {
   padding: 1em;
   text-align: center;
-  font-family: "DM Mono", monospace;
+  font-family: "Raleway", sans-serif;
   background-color: #f2d4a7;
   width: 100%;
 }
@@ -271,7 +269,7 @@ a.hero-button {
   text-align: center;
   transition: background 250ms ease-in-out, transform 150ms ease;
   align-self: flex-end;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 a.hero-button:hover,
@@ -330,14 +328,14 @@ i.footer-icons:hover {
 }
 
 .form-container h3 {
-  font-family: "DM Mono", monospace;
+  font-family: "Oswald", sans-serif;
   padding-bottom: 2%;
   font-size: 2.1em;
 }
 
 .form-container p {
   margin-bottom: 2%;
-  font-family: "DM Mono", monospace;
+  font-family: "Oswald", sans-serif;
   font-weight: 300;
   font-size: 1.3em;
 }
@@ -357,7 +355,7 @@ form {
   flex-direction: column;
   text-align: left;
   margin: 0 auto;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   background-color: #5f67a6;
   padding: 5% 2%;
   color: #f3edf1;
@@ -369,7 +367,7 @@ form {
 .form-container h4 {
   text-align: center;
   padding-bottom: 5%;
-  font-family: "DM Mono", monospace;
+  font-family: "Oswald", sans-serif;
   font-size: 1.7em;
   font-weight: 300;
 }
@@ -381,7 +379,7 @@ form {
   width: 30%;
   padding: 2% 1%;
   font-size: 1.2em;
-  font-family: "DM Mono", monospace;
+  font-family: "Oswald", sans-serif;
   cursor: pointer;
 }
 
@@ -402,7 +400,7 @@ textarea {
   width: 100%;
   font-weight: 300;
   font-size: 1.1em;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 label {
   text-transform: uppercase;
@@ -429,7 +427,7 @@ p.response {
   .hero-info {
     width: 100%;
     padding: 5% 5%;
-    background-color: #5f67a6;
+   
   }
 }
 
@@ -439,13 +437,13 @@ p.response {
     flex-direction: column;
   }
   .hero {
-    background-color: #69dcd1ab;
+ 
     height: 100%;
   }
   .hero-info {
     width: 100%;
     padding: 5% 5%;
-    background-color: #5f67a6;
+
   }
   .hero-info button {
     align-self: flex-start;
