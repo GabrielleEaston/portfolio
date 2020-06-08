@@ -1,8 +1,10 @@
 
 
-## Portfolio version 1
+## Portfolio version 1.0.0
 
-This is a simple one page portfolio website. Build with React.
+This portfolio page Build with ReactJs, Framer Motion Library, CSS3.
+
+It's repsonsive.
 
 
 
