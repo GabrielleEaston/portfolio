@@ -26,8 +26,6 @@ export default function Footer() {
       </a>
       <p>© 2020 by Gabrielle Easton All rights reserved.</p>
       <p>This website was built with ReactJs.</p>
-      <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-      </div>
       
     </footer>
   );
