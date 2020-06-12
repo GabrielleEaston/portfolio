@@ -43,7 +43,7 @@
   {
     "id": 5,
     "title": "Planets App",
-    "description": "App is for educational purposes about the Space and browsing images from NASA Api. User interface is fully CSS3",
+    "description": "App is for educational purposes about the Space and browsing images from NASA API. User interface is fully CSS3",
     "technology": "HTML5 | CSS3 | Vanilla JavaScript | NASA API | Responsive Design",
     "github": "https://github.com/GabrielleEaston/space-app",
     "url": "https://unwritten-breath.surge.sh",
@@ -53,11 +53,21 @@
   {
     "id": 6,
     "title": "Photography Website",
-    "description": "Upload images to your portfolio website. Through out this project I learnt how to connect SQL database and PHP backend, deploy the website using Filezilla to a school server",
+    "description": "Upload images to your portfolio website. Through out this project I learnt how to connect SQL database and PHP backend, deployed the website using Filezilla to a school server",
     "technology": "mySQL | PHP | HTML5 | CSS3",
     "github": "https://github.com/GabrielleEaston/php-photo-uploader",
     "url": "http://citytechcedev.org/fssa/geaston/",
     "image": "https://i.imgur.com/l1Wjyfh.png",
     "gif": "https://imgur.com/1CbbLtc.png"
+  },
+  {
+    "id": 7,
+    "title": "Community Center",
+    "description": "Redesign of community center outdated website with Bootstrap. Responsive on three screens.",
+    "technology": "HTML5 | CSS3 | Bootstrap | JQuery | Responsive Design",
+    "github": "https://github.com/GabrielleEaston/community-center-redesign",
+    "url": "https://gabrielleeaston.github.io/community-center-redesign",
+    "image": "https://i.imgur.com/o7NfwGU.png",
+    "gif": "https://imgur.com/WYuPAJA.png"
   }
 ]
