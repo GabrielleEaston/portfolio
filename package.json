@@ -23,6 +23,7 @@
     "extends": "react-app"
   },
   "browserslist": {
+   
     "production": [
       ">0.2%",
       "not dead",
@@ -33,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "postcss-normalize": "^9.0.0"
   }
 }
