@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../assets/345697.svg";
-// import { Link } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 export default function Header() {
   return (
