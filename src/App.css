@@ -84,7 +84,7 @@ header h1 {
   margin: 0 auto;
   height: calc(100vh - 550px);
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   font-family: "Raleway", sans-serif;
 }
 
@@ -96,7 +96,6 @@ header h1 {
   flex-direction: column;
   justify-items: space-around;
   justify-content: space-evenly;
-
   height: 40%;
 }
 
