@@ -24,9 +24,11 @@ export default function Footer() {
       <a className="social-media" href="mailto:eastongabrielle@gmail.com">
         <i className="fas fa-envelope footer-icons"></i>
       </a>
-      <p>© 2020 by Gabrielle Easton All rights reserved.</p>
-      <p>This website was built with ReactJs.</p>
-      
+      <p>
+        © 2020 by Gabrielle Easton All rights reserved.
+        <br />
+        This website was built with ReactJs.
+      </p>
     </footer>
   );
 }

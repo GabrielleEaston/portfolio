@@ -13,24 +13,37 @@ export default class MyForm extends React.Component {
     const { status } = this.state;
     return (
       <div className="form-container" id="contact">
-        <h3>Contact Me</h3>
-        <p>Email me <a href="mailto:eastongabrielle@gmail.com">eastongabrielle@gmail.com</a></p>
-      <form
-        onSubmit={this.submitForm}
-        action="https://formspree.io/xaypeqqd"
-        method="POST"
+        <p>
+          Email me{" "}
+          <a href="mailto:eastongabrielle@gmail.com">
+            eastongabrielle@gmail.com
+          </a>
+        </p>
+        <form
+          onSubmit={this.submitForm}
+          action="https://formspree.io/xaypeqqd"
+          method="POST"
         >
           <h4>Get in touch with me!</h4>
-        <label htmlFor="name">Name:</label>
-        <input required type="text" name="name" /> 
-        <label htmlFor="email">Email:</label>
-        <input required type="email" name="email" />
-        <label htmlFor="message">Message:</label>
-        <textarea type="text" rows="5" cols="33" name="message" />
-        {status === "SUCCESS" ? <p className="response">Thank you for getting in touch!<br />I will get back to you ASP!</p> : <button>Send</button>}
-        {status === "ERROR" && <p className="response"> Ooops! There was an error.</p>}
+          <label htmlFor="name">Name:</label>
+          <input required type="text" name="name" />
+          <label htmlFor="email">Email:</label>
+          <input required type="email" name="email" />
+          <label htmlFor="message">Message:</label>
+          <textarea type="text" rows="5" cols="33" name="message" />
+          {status === "SUCCESS" ? (
+            <p className="response">
+              Thank you for getting in touch!
+              <br />I will get back to you ASP!
+            </p>
+          ) : (
+            <button>Send</button>
+          )}
+          {status === "ERROR" && (
+            <p className="response"> Ooops! There was an error.</p>
+          )}
         </form>
-        </div>
+      </div>
     );
   }
 
