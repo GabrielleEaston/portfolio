@@ -57,9 +57,7 @@ header h1 {
   transition: 0.3s ease-in-out;
 }
 header h1:hover {
-  background-color: #4ea993;
-  border-radius: 20%;
-  color: #faf7f8;
+  border-bottom: 1px solid #4ea993;
 }
 /*///////////////////////////////
 ////////////Navigation///////////
@@ -80,9 +78,7 @@ header h1:hover {
 }
 
 .nav a:hover {
-  background-color: #4ea993;
-  color: #faf7f8;
-  border-radius: 20%;
+  border-bottom: 1px solid #4ea993;
 }
 
 .nav a:active,
