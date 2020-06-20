@@ -53,6 +53,7 @@ header h1 {
   font-family: "Oswald", sans-serif;
   letter-spacing: 4px;
   color: #222;
+  border-radius: 0;
   transition: 0.3s ease-in-out;
 }
 header h1:hover {
@@ -144,11 +145,11 @@ header h1:hover {
   width: 100%;
 }
 .me-info h3 {
-  font-size: 2.1em;
+  font-size: 1.8em;
   padding: 0 2% 4% 2%;
   font-family: "Oswald", sans-serif;
   letter-spacing: 2px;
-  color: #222;
+  color: #333;
 }
 
 .me-info p {
@@ -264,41 +265,6 @@ button:hover,
 button:focus {
   background: #1d223c;
   color: #f3edf1;
-}
-
-a.hero-button {
-  display: inline-block;
-  border: none;
-  padding: 1.2rem 2.2rem;
-  margin: 0;
-  text-decoration: none;
-  background: #1d223c;
-  color: #f3edf1;
-  font-family: sans-serif;
-  font-size: 1rem;
-  cursor: pointer;
-  text-align: center;
-  transition: background 250ms ease-in-out, transform 150ms ease;
-  align-self: flex-end;
-  font-family: "Raleway", sans-serif;
-}
-
-a.hero-button:hover,
-a.hero-button:focus {
-  background: #f2d4a7;
-  color: #1d223c;
-  font-weight: bold;
-}
-
-a.hero-button:focus,
-button:focus {
-  outline: 1px solid #fff;
-  outline-offset: -4px;
-}
-
-button:active,
-a.hero-button:active {
-  transform: scale(0.99);
 }
 
 /*/////////////////////////////////////////
@@ -433,13 +399,8 @@ p.response {
   form {
     width: 60%;
   }
-  .hero {
-    height: calc(100vh - 350px);
-    width: 80%;
-  }
 
   .hero-info {
-    width: 100%;
     padding: 5% 5%;
   }
 }
@@ -449,24 +410,20 @@ p.response {
   .nav {
     flex-direction: column;
   }
-  .hero {
-    height: 100%;
-  }
+
   .hero-info {
-    width: 100%;
     padding: 5% 5%;
   }
-  .hero-info button {
-    align-self: flex-start;
-  }
+
   .hero-info h1 {
     font-size: 1.9em;
   }
   .about-me {
     height: 100%;
+    flex-direction: column-reverse;
   }
   .shot img {
-    width: 60%;
+    width: 70%;
   }
   .about-me p {
     width: 100%;
@@ -477,13 +434,11 @@ p.response {
     padding-bottom: 0;
   }
   div.grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 0;
     margin: 0;
   }
-  .grid-item {
-    border: 1px solid black;
-  }
+
   .grid-item img {
     width: 90%;
   }
@@ -498,9 +453,7 @@ p.response {
     width: 80%;
     border-radius: inherit;
   }
-  .form-container {
-    background-color: #f1f1f1;
-  }
+
   .form-container h4 {
     font-size: 1.2em;
   }
