@@ -31,7 +31,6 @@ header {
   font-family: "Raleway", sans-serif;
   border-bottom: 1px solid #ddd;
   padding-bottom: 2%;
-  /* padding-top: 2%; */
   margin: 0 auto 5% auto;
 }
 
@@ -66,7 +65,6 @@ header h1:hover {
 .nav {
   display: flex;
   justify-content: space-around;
-  width: 30%;
 }
 
 .nav a {
@@ -164,7 +162,6 @@ header h1:hover {
   display: block;
   object-fit: fill;
   border: 1.2em solid #faf7f8;
- 
 }
 
 /*///////////////////////////////////////
