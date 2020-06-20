@@ -10,7 +10,7 @@ export default function Header() {
         </Link>
       </div>
       <Link smooth to="/">
-        <h1 style={{ color: "#333" }}>Gabrielle Easton</h1>
+        <h1>Gabrielle Easton</h1>
       </Link>
       <ul className="nav">
         <li>

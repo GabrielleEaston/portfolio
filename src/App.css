@@ -10,10 +10,15 @@
   text-decoration: none;
   list-style: none;
 }
-.App {
-  margin: 0 auto;
-}
 
+.App {
+  max-width: 900px;
+  margin: 2% auto;
+  padding: 2%;
+}
+main {
+  padding: 2% 0;
+}
 /*/////////////////////////////////
 ////////////Header////////////////
 //////////////////////////////////*/
@@ -22,18 +27,19 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 70%;
+  width: 100%;
   font-family: "Raleway", sans-serif;
   border-bottom: 1px solid #ddd;
   padding-bottom: 2%;
-  padding-top: 2%;
+  /* padding-top: 2%; */
   margin: 0 auto 5% auto;
 }
 
 .logo img {
   display: block;
-  width: 80px;
+  width: 60px;
   transition: background-color 250ms ease-in-out, transform 150ms ease;
+  color: blue;
 }
 
 .logo img:hover {
@@ -45,10 +51,13 @@ header h1 {
   padding: 0.6em 0.2em;
   font-family: "Oswald", sans-serif;
   letter-spacing: 4px;
+  color: #222;
+  transition: 0.3s ease-in-out;
 }
 header h1:hover {
   background-color: #4ea993;
   border-radius: 50%;
+  color: #faf7f8;
 }
 /*///////////////////////////////
 ////////////Navigation///////////
@@ -85,16 +94,17 @@ header h1:hover {
 /////////////////////////////////*/
 
 .hero {
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
-  height: calc(100vh - 550px);
+  height: 55vh;
   display: flex;
+  align-items: center;
   font-family: "Raleway", sans-serif;
 }
 
 .hero-info {
   padding: 2% 2%;
-  width: 70%;
+  width: 100%;
   color: #faf7f8;
   display: flex;
   flex-direction: column;
@@ -111,7 +121,7 @@ header h1:hover {
 }
 
 .hero-info p {
-  letter-spacing: 8px;
+  letter-spacing: 4px;
   font-weight: 800;
   padding-bottom: 2.2em;
   font-size: 1em;
@@ -125,12 +135,13 @@ header h1:hover {
 .about-me {
   display: flex;
   flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
   padding: 2% 2% 10% 2%;
-  width: 90%;
-  border-radius: 5%;
+  width: 100%;
 }
 .me-info {
-  width: 45%;
+  width: 100%;
 }
 .me-info h3 {
   font-size: 2.1em;
@@ -146,16 +157,14 @@ header h1:hover {
   font-size: 1.3em;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  font-style: normal;
-  text-transform: none;
   color: #777;
 }
 .shot img {
-  width: 60%;
-  margin: 0 auto;
+  width: 90%;
   display: block;
   object-fit: fill;
-  border: 10px solid #eff0e8;
+  border: 1.2em solid #faf7f8;
+ 
 }
 
 /*///////////////////////////////////////
@@ -164,7 +173,7 @@ header h1:hover {
 
 .projects {
   padding-bottom: 5%;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -174,8 +183,8 @@ header h1:hover {
 div.grid {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 325px 325px 325px;
-  grid-gap: 2%;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 3%;
   text-align: center;
   justify-content: center;
 }
@@ -186,14 +195,12 @@ div.grid-item {
 
 .grid-item img {
   display: block;
-  height: 300px;
+  width: 100%;
   margin: 0 auto;
-  border: 1px sold #ddd;
 }
 
 .grid-item h3 {
   font-family: "Raleway", sans-serif;
-  /* padding-bottom: 10%; */
   color: rgb(109, 105, 105);
   font-weight: 400;
   font-style: normal;
@@ -238,7 +245,7 @@ footer {
   align-items: center;
   font-family: "Raleway", sans-serif;
   margin: 5% auto 0 auto;
-  width: 70%;
+  width: 100%;
 }
 
 footer p {
@@ -338,7 +345,7 @@ i.footer-icons:hover {
 }
 
 .form-container p {
-  margin-bottom: 2%;
+  margin-bottom: 7%;
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   font-size: 1.3em;
@@ -354,7 +361,7 @@ i.footer-icons:hover {
 }
 
 form {
-  width: 30%;
+  width: 55%;
   display: flex;
   flex-direction: column;
   text-align: left;
