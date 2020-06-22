@@ -4,6 +4,7 @@ import Contact from "./Contact";
 import Hero from "./Hero";
 import About from "./About";
 import { Route } from "react-router-dom";
+
 export default function Main() {
   return (
     <main>
