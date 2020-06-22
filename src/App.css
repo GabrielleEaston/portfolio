@@ -192,6 +192,7 @@ div.grid-item {
 .grid-item img {
   display: block;
   width: 100%;
+
   margin: 0 auto;
 }
 
@@ -270,15 +271,16 @@ button:focus {
 
 a.social-media {
   display: inline-block;
-  color: #111111;
+  color: #777777;
   padding: 1%;
 }
 
 i.fab,
-i.fas {
+i.fas,
+i.footer-icons {
   font-size: 25px;
   transition: ease-out 250ms;
-  color: #111111;
+  color: #777777;
   padding: 5%;
 }
 

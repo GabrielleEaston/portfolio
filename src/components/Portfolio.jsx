@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import data from "../data.json";
 import { motion } from "framer-motion";
 import Modal from "./Modal.jsx";
+
 export default class Portfolio extends Component {
   state = {
     projects: data,
@@ -36,13 +37,13 @@ export default class Portfolio extends Component {
                 rel="noopener noreferrer"
               >
                 <i
-                  style={{ color: "rgb(109, 105, 105)" }}
+                  // style={{ color: "rgb(109, 105, 105)" }}
                   className="fab fa-github"
                 ></i>
               </a>
               <a href={project.url} target="_blank" rel="noopener noreferrer">
                 <i
-                  style={{ color: "rgb(109, 105, 105)" }}
+                  // style={{ color: "rgb(109, 105, 105)" }}
                   className="fas fa-globe"
                 ></i>
               </a>
