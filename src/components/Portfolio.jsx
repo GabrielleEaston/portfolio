@@ -12,9 +12,6 @@ export default class Portfolio extends Component {
     const { projects } = this.state;
     return (
       <section className="projects">
-        <h2 style={{ textAlign: "center", paddingBottom: 30, color: "#777" }}>
-          This page is being updated! Please don't judge it. Thank you!
-        </h2>
         <div className="grid">
           {projects.map(project => (
             <div className="grid-item" key={project.id}>
