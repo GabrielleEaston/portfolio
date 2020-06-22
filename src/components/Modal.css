@@ -23,7 +23,6 @@
   max-width: calc(100% - 60px);
   margin: auto;
   color: #333333;
-  position: relative;
 }
 .modalText {
   text-align: left;
@@ -37,6 +36,7 @@
 .modalImage {
   display: flex;
   width: 100%;
+  position: relative;
   justify-content: center;
 }
 .modalImage img {
@@ -132,4 +132,13 @@ button.exit:hover::after {
 #modal-btn:hover {
   background-color: #4ea993;
   color: #fff;
+}
+@media only screen and (max-device-width: 550px) {
+  .modalImage {
+    flex-direction: column;
+  }
+  button.exit::before,
+  button.exit::after {
+    background-color: #777;
+  }
 }

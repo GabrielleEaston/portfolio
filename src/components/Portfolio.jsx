@@ -13,7 +13,7 @@ export default class Portfolio extends Component {
     return (
       <section className="projects">
         <h2 style={{ textAlign: "center", paddingBottom: 30, color: "#777" }}>
-          This page is being updated!!!!
+          This page is being updated! Please don't judge it. Thank you!
         </h2>
         <div className="grid">
           {projects.map(project => (
@@ -30,15 +30,9 @@ export default class Portfolio extends Component {
                   whileHover={{ opacity: 0.9 }}
                   src={project.image}
                   alt={project.title}
-                  // onMouseOver={e => (e.currentTarget.src = project.gif)}
-                  // onMouseLeave={e => (e.currentTarget.src = project.image)}
                 />
               </a>
               <h3>{project.title}</h3>
-
-              {/* <span className="hover">Hover the image for DEMO</span> */}
-              {/* <p className="desc">{project.description}</p>
-              <p className="technology">{project.technology}</p> */}
               <a
                 href={project.github}
                 target="_blank"
