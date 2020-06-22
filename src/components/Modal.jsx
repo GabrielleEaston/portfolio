@@ -16,7 +16,7 @@ export default function Modal(props) {
             <div className="modalText">
               <h2>{props.title}</h2>
               <p>{props.description}</p>
-              <p>{props.technology}</p>
+              <p className="technology">{props.technology}</p>
               <a href={props.url}>Live Website</a>
               <a href={props.github}>Github</a>
             </div>
