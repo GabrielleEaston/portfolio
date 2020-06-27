@@ -9,10 +9,10 @@ export default function About() {
       <div className="me-info">
         <h3>About Me</h3>
         <p>
-          A Software Developer based in New York. Lover of fast, minimalist
-          experiences, aesthetic design, technologies.
-          <br /> Always open to work on exciting projects, be part of an awesome
-          team or/and work independently. Feel free to reach out.
+          Hello, I am Gabrielle Easton and I am a web developer. I live and work
+          in New York, NY. I spend most of my day, experimenting with HTML, CSS
+          and Javascript (and it's endless list of frameworks). I enjoy coding
+          and the challenge of learning something new everyday.
         </p>
         <p style={{ marginTop: 10 }}>&#9733;Let's build something together</p>
 
