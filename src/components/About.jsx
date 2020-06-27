@@ -17,8 +17,8 @@ export default function About() {
         <p style={{ marginTop: 10 }}>&#9733;Let's build something together</p>
 
         <p style={{ marginTop: 10 }}>
-          Favorites: React | Gatsby | CSS3 | CSS Modules | Responsive Design |
-          Debugging | Research
+          Favorites: React | Gatsby | CSS3 | CSS Modules | GraphQL Responsive
+          Design | Debugging | Research
         </p>
       </div>
     </div>
