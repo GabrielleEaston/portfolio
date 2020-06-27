@@ -21,6 +21,7 @@
   background: #fff;
   width: 900px;
   max-width: calc(100% - 60px);
+  padding: 2%;
   margin: auto;
   color: #333333;
 }
@@ -70,7 +71,7 @@ button.exit {
   cursor: pointer;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  right: -20%;
+  right: -22%;
   letter-spacing: 1.5px;
   line-height: 50px;
   outline: none;
@@ -78,7 +79,7 @@ button.exit {
   padding: 10px 0 0;
   position: absolute;
   text-transform: uppercase;
-  top: 0;
+  top: -4%;
   transform: translate(-50%, -50%);
   transition: all 0.2s ease-in;
   width: 100px;

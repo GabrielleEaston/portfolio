@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import data from "../data.json";
-import { motion } from "framer-motion";
 import Modal from "./Modal.jsx";
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/opacity.css";
 export default class Portfolio extends Component {
   state = {
     projects: data,
@@ -17,17 +17,10 @@ export default class Portfolio extends Component {
           {projects.map(project => (
             <div className="grid-item" key={project.id}>
               <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <motion.img
-                  initial={{
-                    opacity: 0
-                  }}
-                  animate={{
-                    opacity: 1
-                  }}
-                  transition={{ duration: 0.1 }}
-                  whileHover={{ opacity: 0.9 }}
-                  src={project.image}
+                <LazyLoadImage
                   alt={project.title}
+                  src={project.image}
+                  effect="opacity"
                 />
               </a>
               <h3>{project.title}</h3>

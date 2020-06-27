@@ -9,14 +9,16 @@ export default function About() {
       <div className="me-info">
         <h3>About Me</h3>
         <p>
-          I am a solutions-oriented Software Engineer who holds over five years
-          experience solving complex issues in the hospitality space. In
-          creating top-notch user experiences, I merge my technical training
-          with my service background to build intuitive products that
-          proactively anticipate the needs of the users we support. I have deep
-          passion for design and smooth functionality for my products. I take my
-          job with pride and I care deeply about exceeding my clients
-          expectations. Always eager to learn and grow.
+          A Software Developer based in New York. Lover of fast, minimalist
+          experiences, aesthetic design, technologies. Always open to work on
+          exciting projects, be part of an awesome team or/and work
+          independently. Feel free to reach to me.
+        </p>
+        <p style={{ marginTop: 10 }}>&#9733;Let's build something together</p>
+
+        <p style={{ marginTop: 10 }}>
+          Favorites: React | Gatsby | CSS3 | CSS Modules | Responsive Design |
+          Debugging | Research
         </p>
       </div>
     </div>
