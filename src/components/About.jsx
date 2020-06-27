@@ -10,9 +10,9 @@ export default function About() {
         <h3>About Me</h3>
         <p>
           A Software Developer based in New York. Lover of fast, minimalist
-          experiences, aesthetic design, technologies. Always open to work on
-          exciting projects, be part of an awesome team or/and work
-          independently. Feel free to reach to me.
+          experiences, aesthetic design, technologies.
+          <br /> Always open to work on exciting projects, be part of an awesome
+          team or/and work independently. Feel free to reach out.
         </p>
         <p style={{ marginTop: 10 }}>&#9733;Let's build something together</p>
 
