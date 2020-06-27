@@ -10,9 +10,10 @@ export default function About() {
         <h3>About Me</h3>
         <p>
           Hello, I am Gabrielle Easton and I am a Web Developer. I live and work
-          in New York, NY. &#128509; I spend most of my day, experimenting with
-          HTML, CSS and Javascript (and it's endless list of frameworks). I
-          enjoy coding and the challenge of learning something new everyday.
+          in New York, NY.
+          <br /> I spend most of my day, experimenting with HTML, CSS and
+          Javascript (and it's endless list of frameworks). I enjoy coding and
+          the challenge of learning something new everyday.
         </p>
         <p style={{ marginTop: 10 }}>&#9733;Let's build something together</p>
 
