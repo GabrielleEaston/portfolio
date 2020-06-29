@@ -397,7 +397,7 @@ p.response {
 ////////////////////////////////////////////*/
 
 @media only screen and (max-device-width: 768px) {
-  .about-me p {
+  .me-info p {
     width: 80%;
   }
   form {
@@ -429,7 +429,7 @@ p.response {
   .shot img {
     width: 70%;
   }
-  .about-me p {
+  .me-info p {
     width: 100%;
     font-size: 1em;
   }
