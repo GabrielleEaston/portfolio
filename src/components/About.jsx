@@ -10,12 +10,10 @@ export default function About() {
         <h3>About Me</h3>
         <p>
           I am Gabrielle and I am a Web Developer. Lover of fast, minimalist
-          experiences and aesthetic design.
+          experiences and aesthetic design. I live and work in New York, NY. I
+          enjoy coding and the challenge of learning something new everyday.
         </p>
-        <p style={{ marginTop: 10 }}>I live and work in New York, NY. </p>
-        <p>
-          I enjoy coding and the challenge of learning something new everyday.
-        </p>
+
         <p style={{ marginTop: 10, color: "#4ea993" }}>
           &#9733;Let's build something together
         </p>
