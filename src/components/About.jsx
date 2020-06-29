@@ -9,9 +9,10 @@ export default function About() {
       <div className="me-info">
         <h3>About Me</h3>
         <p>
-          I am Gabrielle and I am a Web Developer. Lover of fast, minimalist
-          experiences and aesthetic design. I live and work in New York, NY. I
-          enjoy coding and the challenge of learning something new everyday.
+          I am Gabrielle Easton and I am a Web Developer. Lover of fast,
+          minimalist experiences and aesthetic design. I live and work in NYC
+          area. I enjoy coding and the challenge of learning something new
+          everyday.
         </p>
 
         <p style={{ marginTop: 10, color: "#4ea993" }}>
