@@ -115,34 +115,33 @@ header h1:hover {
 }
 
 .sidebar {
-  background: #faf7f8;
+  background: #fcfcfc;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 50%;
+  height: 100%;
   z-index: 999;
   display: grid;
   place-items: center;
   opacity: 0;
   transition: 0.3s ease-in-out;
-  transform: translateY(-100%);
+  transform: translateX(-100%);
 }
 .show-sidebar {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateX(0);
 }
 .sidebar-links li {
   opacity: 1;
 }
 .sidebar-links li a {
   display: block;
-  text-transform: capitalize;
-  color: #777;
-  letter-spacing: 1rem;
+  color: rgb(109, 105, 105);
   margin-bottom: 0.5rem;
-  font-size: 2rem;
+  font-size: 1.1rem;
   transition: 0.3s ease-in-out;
+  font-family: "Raleway", sans-serif;
 }
 .sidebar-links li a:hover {
   color: #4ea993;
