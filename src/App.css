@@ -62,30 +62,106 @@ header h1:hover {
 /*///////////////////////////////
 ////////////Navigation///////////
 ////////////////////////////////*/
-
 .nav {
-  display: flex;
-  justify-content: space-around;
+  display: none;
 }
 
-.nav a {
-  display: inline-block;
-  font-size: 1.1em;
-  color: rgb(109, 105, 105);
-  background-color: transparent;
-  padding: 0.6em 0.9em;
+/*/////Moble menu toggle button/////////*/
+.toggle-btn {
+  font-size: 2rem;
+  background: transparent;
+  border-color: transparent;
+  color: #777;
+  cursor: pointer;
   transition: 0.3s ease-in-out;
 }
-
-.nav a:hover {
-  border-bottom: 1px solid #4ea993;
+.toggle-btn:hover {
+  color: #4ea993;
+  background: transparent;
 }
 
-.nav a:active,
-.nav a:focus {
-  color: #111111;
+@media screen and (min-width: 768px) {
+  .toggle-btn {
+    display: none;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav a {
+    display: inline-block;
+    font-size: 1.1em;
+    color: rgb(109, 105, 105);
+    background-color: transparent;
+    padding: 0.6em 0.9em;
+    transition: 0.3s ease-in-out;
+  }
+
+  .nav a:hover {
+    border-bottom: 1px solid #4ea993;
+  }
+
+  .nav a:active,
+  .nav a:focus {
+    color: #111111;
+  }
 }
 
+@media screen and (min-width: 992px) {
+  .navbar {
+    background: transparent;
+  }
+}
+
+.sidebar {
+  background: #ddd;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: grid;
+  place-items: center;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  transform: translateX(-100%);
+}
+.show-sidebar {
+  opacity: 1;
+  transform: translateX(0);
+}
+.sidebar-links li {
+  opacity: 1;
+}
+.sidebar-links li a {
+  display: block;
+  text-transform: capitalize;
+  color: #777;
+  letter-spacing: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  transition: 0.3s ease-in-out;
+}
+.sidebar-links li a:hover {
+  color: #4ea993;
+}
+.close-btn {
+  position: absolute;
+  right: 4.75%;
+  top: 2.75%;
+  font-size: 2.5rem;
+  background: transparent;
+  border-color: transparent;
+  color: #777;
+  cursor: pointer;
+}
+@media screen and (min-width: 992px) {
+  .sidebar {
+    transform: translateX(-100%);
+  }
+}
 /*////////////////////////////////
 ////////////Hero section//////////
 /////////////////////////////////*/

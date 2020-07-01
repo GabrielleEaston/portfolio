@@ -1,32 +1,27 @@
 import React from "react";
 import logo from "../assets/345697.svg";
-import { HashLink as Link } from "react-router-hash-link";
-export default function Header() {
+import { FaAlignRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
+export default function Header({ toggleSideBar }) {
   return (
     <header>
       <div className="logo">
-        <Link smooth to="/">
+        <Link to="/">
           <img src={logo} alt={logo} />
         </Link>
       </div>
-      <Link smooth to="/">
+      <Link to="/">
         <h1>Gabrielle Easton</h1>
       </Link>
       <ul className="nav">
         <li>
-          <Link smooth to="about">
-            About
-          </Link>
+          <Link to="about">About</Link>
         </li>
         <li>
-          <Link smooth to="/portfolio">
-            Portfolio
-          </Link>
+          <Link to="/portfolio">Portfolio</Link>
         </li>
         <li>
-          <Link smooth to="/contact">
-            Contact
-          </Link>
+          <Link to="/contact">Contact</Link>
         </li>
         <li>
           <a
@@ -38,6 +33,9 @@ export default function Header() {
           </a>
         </li>
       </ul>
+      <button type="button" className="toggle-btn" onClick={toggleSideBar}>
+        <FaAlignRight></FaAlignRight>
+      </button>
     </header>
   );
 }
