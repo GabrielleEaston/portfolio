@@ -5,6 +5,9 @@ import { Link } from "react-router-dom";
 export default function Header({ toggleSideBar }) {
   return (
     <header>
+      <button type="button" className="toggle-btn" onClick={toggleSideBar}>
+        <FaAlignRight></FaAlignRight>
+      </button>
       <div className="logo">
         <Link to="/">
           <img src={logo} alt={logo} />
@@ -33,9 +36,6 @@ export default function Header({ toggleSideBar }) {
           </a>
         </li>
       </ul>
-      <button type="button" className="toggle-btn" onClick={toggleSideBar}>
-        <FaAlignRight></FaAlignRight>
-      </button>
     </header>
   );
 }

@@ -3,6 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <footer>
+      
       <a
         className="social-media"
         href="https://github.com/GabrielleEaston"
