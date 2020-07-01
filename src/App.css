@@ -348,7 +348,6 @@ button:focus {
 /////////////Social media icons//////////
 //////////////////////////////////////////*/
 
-
 a.social-media {
   display: inline-block;
   color: #777777;
@@ -544,5 +543,8 @@ p.response {
   input,
   textarea {
     border: 2px solid white;
+  }
+  .toggle-btn {
+    align-self: baseline;
   }
 }
