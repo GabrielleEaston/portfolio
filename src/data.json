@@ -42,16 +42,6 @@
   },
   {
     "id": 5,
-    "title": "Planets App",
-    "description": "App is for educational purposes about the Space and browsing images from NASA API. User interface is fully CSS3",
-    "technology": "HTML5 | CSS3 | Vanilla JavaScript | NASA API | Responsive Design",
-    "github": "https://github.com/GabrielleEaston/space-app",
-    "url": "https://unwritten-breath.surge.sh",
-    "image": "https://i.imgur.com/XlHzURH.png",
-    "gif": "https://imgur.com/RLdGTet.png"
-  },
-  {
-    "id": 6,
     "title": "Photography Website",
     "description": "Upload images to your portfolio website. Through out this project I learnt how to connect SQL database and PHP backend, deployed the website using Filezilla to a school server",
     "technology": "mySQL | PHP | HTML5 | CSS3",
@@ -61,7 +51,7 @@
     "gif": "https://imgur.com/1CbbLtc.png"
   },
   {
-    "id": 7,
+    "id": 6,
     "title": "Community Center",
     "description": "Redesign of community center outdated website with Bootstrap. Responsive on three screens.",
     "technology": "HTML5 | CSS3 | Bootstrap | JQuery | Responsive Design",
