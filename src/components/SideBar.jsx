@@ -16,7 +16,7 @@ const Sidebar = ({ toggleSideBar, isOpen }) => {
             </Link>
           </li>
           <li>
-            <Link smooth to="/portfolio" onClick={toggleSideBar}>
+            <Link to="/portfolio" onClick={toggleSideBar}>
               Portfolio
             </Link>
           </li>
