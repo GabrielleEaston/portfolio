@@ -9,8 +9,12 @@ export default function About() {
       <div className="me-info">
         <h3>About Me</h3>
         <p>
-          I am a Web Developer. I live and work in NYC area. I enjoy coding and
-          the challenge of learning something new everyday.
+          Software Developer with a passion for visual design and seamless user
+          experience. As a lifelong learner and independent self-starter, I am
+          constantly searching for new trends in the industry in order to create
+          cutting edge products. I seek the opportunity to leverage my creative
+          and analytical skills to build amazing, fast, modern websites and
+          applications.
         </p>
 
         <p style={{ marginTop: 10, color: "#4ea993" }}>
