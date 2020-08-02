@@ -208,7 +208,6 @@ header h1:hover {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
-  align-items: center;
   padding: 2% 2% 10% 2%;
   width: 100%;
 }
@@ -236,6 +235,7 @@ header h1:hover {
   display: block;
   object-fit: fill;
   border: 1.2em solid #faf7f8;
+  margin-top: 10%;
 }
 
 /*///////////////////////////////////////
