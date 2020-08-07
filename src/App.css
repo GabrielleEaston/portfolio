@@ -190,6 +190,7 @@ header h1:hover {
   padding-bottom: 0.6em;
   font-size: 3em;
   color: #4ea993;
+  text-shadow: 2px 1px #1a6b63;
 }
 
 .hero-info p {
