@@ -437,11 +437,13 @@ form {
   font-size: 1.2em;
   font-family: "Oswald", sans-serif;
   cursor: pointer;
+  border: 1px solid #4ea993;
 }
 
 .form-container button:hover {
   color: white;
   background-color: #4ea993;
+  border: none;
 }
 
 input,

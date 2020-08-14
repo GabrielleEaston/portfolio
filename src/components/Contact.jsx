@@ -1,5 +1,4 @@
 import React from "react";
-import "mailgo/dist/mailgo.min.js";
 
 export default class MyForm extends React.Component {
   constructor(props) {
@@ -20,6 +19,9 @@ export default class MyForm extends React.Component {
             eastongabrielle@gmail.com
           </a>
         </p>
+        <a href="#mailgo" data-address="matteo" data-domain="manzinello.dev">
+          write me!
+        </a>
         <form
           onSubmit={this.submitForm}
           action="https://formspree.io/xaypeqqd"
