@@ -1,5 +1,5 @@
 import React from "react";
-
+import mailgo from "mailgo";
 export default class MyForm extends React.Component {
   constructor(props) {
     super(props);
