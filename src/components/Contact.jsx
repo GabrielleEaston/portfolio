@@ -1,4 +1,5 @@
 import React from "react";
+import "mailgo/dist/mailgo.min.js";
 
 export default class MyForm extends React.Component {
   constructor(props) {
