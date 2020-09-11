@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Modal.css";
+import { AiFillCloseCircle } from "react-icons/ai";
 export default function Modal(props) {
   const [modalState, setModalState] = useState(false);
 
@@ -20,9 +21,13 @@ export default function Modal(props) {
               <a href={props.url}>Live Website</a>
               <a href={props.github}>Github</a>
             </div>
-            <button className="exit" onClick={() => toggleModalState()}>
+            <AiFillCloseCircle
+              className="exit"
+              onClick={() => toggleModalState()}
+            ></AiFillCloseCircle>
+            {/* <button className="exit" onClick={() => toggleModalState()}>
               Close
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

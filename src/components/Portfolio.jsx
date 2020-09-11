@@ -25,16 +25,10 @@ export default class Portfolio extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i
-                  // style={{ color: "rgb(109, 105, 105)" }}
-                  className="fab fa-github"
-                ></i>
+                <i className="fab fa-github"></i>
               </a>
               <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <i
-                  // style={{ color: "rgb(109, 105, 105)" }}
-                  className="fas fa-globe"
-                ></i>
+                <i className="fas fa-globe"></i>
               </a>
               <Modal
                 title={project.title}

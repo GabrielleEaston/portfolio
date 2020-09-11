@@ -21,7 +21,7 @@
   },
   {
     "id": 3,
-    "title": "Tech Blog App",
+    "title": "Tech Blog Prototype",
     "description": "Tech Blog for newbies in tech world. Users can log in and create/edit/delete posts. Tech Blog is a full stack application. It was developed with Express backend API, ReactJS, JavaScript, React Router, Mongoose, MongoDB. An authentication system was developed with Express on backend and Json Web Token and local storage onthe client side. The user interface is build with fully CSS styling",
     "technology": "ReactJS | ExpressJS | JWT | MongoDB | Heroku | Mongoose | CSS3 | Responsive Design",
     "github": "https://github.com/GabrielleEaston/hytech",

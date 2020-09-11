@@ -24,6 +24,7 @@
   padding: 2%;
   margin: auto;
   color: #333333;
+  position: relative;
 }
 .modalText {
   text-align: left;
@@ -62,7 +63,7 @@
   background-color: #4ea993;
   color: #eff0e8;
 }
-button.exit {
+/* button.exit {
   padding: 15px;
   background: none;
   border: 0;
@@ -117,12 +118,12 @@ button.exit:hover::before,
 button.exit:hover::after {
   height: 50px;
   transform: rotate(0deg);
-}
+} */
 
 #modal-btn {
   display: block;
   width: 100%;
-  padding: 1%;
+  padding: 1.2%;
   font-family: "Raleway", sans-serif;
   background: transparent;
   color: #777;
@@ -133,6 +134,17 @@ button.exit:hover::after {
 #modal-btn:hover {
   background-color: #4ea993;
   color: #fff;
+}
+.exit {
+  font-size: 1.75rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.exit:hover {
+  color: #4ea993;
 }
 @media only screen and (max-device-width: 550px) {
   .modalImage {
