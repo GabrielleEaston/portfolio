@@ -458,6 +458,9 @@ i.footer-icons:hover {
 
 .form-container a {
   color: #2d1b4e;
+  font-weight: normal;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .form-container a:hover {
