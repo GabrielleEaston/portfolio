@@ -458,8 +458,8 @@ i.footer-icons:hover {
 
 .form-container a {
   color: #2d1b4e;
-  font-weight: normal;
-  transition: text-shadow 0.3s;
+  -webkit-transition: text-shadow 0.3s ease-in-out;
+  transition: text-shadow 0.3s ease-in-out;
 }
 
 .form-container a:hover {
