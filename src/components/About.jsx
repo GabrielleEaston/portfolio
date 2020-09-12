@@ -22,7 +22,7 @@ export default function About() {
         </p>
 
         <p style={{ marginTop: 10 }}>
-          Favorites: React | Gatsby | CSS3 | CSS Modules | GraphQL | Responsive
+          Favorites: React | Gatsby | CSS | CSS Modules | GraphQL | Responsive
           Design | Debugging | Research | Bootstrap |
         </p>
         <p style={{ marginTop: 15 }}>

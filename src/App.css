@@ -26,6 +26,12 @@ main {
 header {
   display: flex;
   align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   width: 100%;
   font-family: "Raleway", sans-serif;
@@ -37,8 +43,14 @@ header {
 .logo img {
   display: block;
   width: 60px;
+  -webkit-transition: background-color 250ms ease-in-out,
+    -webkit-transform 150ms ease;
+  transition: background-color 250ms ease-in-out, -webkit-transform 150ms ease;
   transition: background-color 250ms ease-in-out, transform 150ms ease;
+  transition: background-color 250ms ease-in-out, transform 150ms ease,
+    -webkit-transform 150ms ease;
   color: blue;
+  -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 
@@ -48,12 +60,18 @@ header {
   transform: translateY(-18px);
 }
 header h1 {
+  -webkit-transition: background-color 250ms ease-in-out,
+    -webkit-transform 150ms ease;
+  transition: background-color 250ms ease-in-out, -webkit-transform 150ms ease;
   transition: background-color 250ms ease-in-out, transform 150ms ease;
+  transition: background-color 250ms ease-in-out, transform 150ms ease,
+    -webkit-transform 150ms ease;
   padding: 0.6em 0.2em;
   font-family: "Oswald", sans-serif;
   letter-spacing: 4px;
   color: #222;
   border-radius: 0;
+  -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 header h1:hover {
@@ -73,6 +91,7 @@ header h1:hover {
   border-color: transparent;
   color: #777;
   cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 .toggle-btn:hover {
@@ -85,7 +104,10 @@ header h1:hover {
     display: none;
   }
   .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
   }
 
@@ -95,6 +117,7 @@ header h1:hover {
     color: rgb(109, 105, 105);
     background-color: transparent;
     padding: 0.6em 0.9em;
+    -webkit-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
   }
 
@@ -122,24 +145,32 @@ header h1:hover {
   width: 100%;
   height: 100%;
   z-index: 999;
+  display: -ms-grid;
   display: grid;
   place-items: center;
   opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  -webkit-transform: translateX(-100%);
   transform: translateX(-100%);
 }
 .show-sidebar {
   opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -webkit-transform: translateX(0);
   transform: translateX(0);
 }
 .sidebar-links li {
   opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 .sidebar-links li a {
   display: block;
   color: rgb(109, 105, 105);
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
+  -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
   font-family: "Raleway", sans-serif;
 }
@@ -158,6 +189,7 @@ header h1:hover {
 }
 @media screen and (min-width: 992px) {
   .sidebar {
+    -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
   }
 }
@@ -169,7 +201,11 @@ header h1:hover {
   width: 100%;
   margin: 0 auto;
   height: 55vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   font-family: "Raleway", sans-serif;
 }
@@ -178,9 +214,17 @@ header h1:hover {
   padding: 2% 2%;
   width: 100%;
   color: #faf7f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-grid-column-align: space-around;
   justify-items: space-around;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   height: 40%;
 }
@@ -206,8 +250,15 @@ header h1:hover {
 /////////////////////////////////////*/
 
 .about-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   padding: 2% 2% 10% 2%;
   width: 100%;
@@ -234,6 +285,7 @@ header h1:hover {
 .shot img {
   width: 90%;
   display: block;
+  -o-object-fit: fill;
   object-fit: fill;
   border: 1.2em solid #faf7f8;
   margin-top: 10%;
@@ -254,10 +306,14 @@ header h1:hover {
 /////////////////////////////////*/
 div.grid {
   margin: 0 auto;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 30% 30% 30%;
   grid-template-columns: 30% 30% 30%;
   grid-gap: 3%;
   text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -269,7 +325,9 @@ div.grid-item {
   display: block;
   width: 100%;
   opacity: 0.9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
   margin: 0 auto;
+  -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
 }
 .grid-item img:hover {
@@ -360,6 +418,7 @@ i.fab,
 i.fas,
 i.footer-icons {
   font-size: 25px;
+  -webkit-transition: ease-out 250ms;
   transition: ease-out 250ms;
   color: #777777;
   padding: 5%;
@@ -408,7 +467,12 @@ i.footer-icons:hover {
 
 form {
   width: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   text-align: left;
   margin: 0 auto;
@@ -439,6 +503,7 @@ form {
   font-family: "Oswald", sans-serif;
   cursor: pointer;
   border: 1px solid #4ea993;
+  -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 
@@ -491,6 +556,9 @@ p.response {
 @media only screen and (max-device-width: 550px) /* and (max-device-width: 812px) */ /* and (-webkit-device-pixel-ratio: 3) */ {
   header,
   .nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 
@@ -502,7 +570,9 @@ p.response {
     font-size: 1.9em;
   }
   .about-me {
-    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
   }
   .shot img {
@@ -517,6 +587,7 @@ p.response {
     padding-bottom: 0;
   }
   div.grid {
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     gap: 0;
     margin: 0;
@@ -548,6 +619,7 @@ p.response {
     border: 2px solid white;
   }
   .toggle-btn {
+    -ms-flex-item-align: baseline;
     align-self: baseline;
   }
 }

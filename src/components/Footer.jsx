@@ -3,7 +3,6 @@ import React from "react";
 export default function Footer() {
   return (
     <footer>
-      
       <a
         className="social-media"
         href="https://github.com/GabrielleEaston"
@@ -28,7 +27,7 @@ export default function Footer() {
       <p>
         © 2020 by Gabrielle Easton All rights reserved.
         <br />
-        This website was built with ReactJs.
+        This website was built with React.
       </p>
     </footer>
   );
