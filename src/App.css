@@ -439,8 +439,10 @@ i.footer-icons:hover {
 /////////////////////////////////////////////////////*/
 
 .form-container {
-  padding: 1% 0 2% 0;
-  text-align: center;
+  /* padding: 1% 0 2% 0; */
+  /* text-align: center; */
+  display: flex;
+  /* flex-direction: row-reverse; */
 }
 
 .form-container h3 {
@@ -450,13 +452,15 @@ i.footer-icons:hover {
 }
 
 .form-container p {
-  margin-bottom: 7%;
-  font-family: "Oswald", sans-serif;
+  margin-top: 10%;
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
   font-size: 1.3em;
 }
 
 .form-container a {
+  margin-top: 5%;
+  display: inline-block;
   color: #2d1b4e;
   -webkit-transition: text-shadow 0.3s ease-in-out;
   transition: text-shadow 0.3s ease-in-out;
@@ -477,18 +481,17 @@ form {
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: left;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   font-family: "Raleway", sans-serif;
-  background-color: #eff0e8;
+  background-color: transparent;
   padding: 2% 2%;
   color: #111111;
-  border-radius: 10%;
+  /* border-radius: 10%;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2), 0 1px 5px rgba(0, 0, 0, 0.2),
-    0 0 0 8px rgba(255, 255, 255, 0.4);
+    0 0 0 8px rgba(255, 255, 255, 0.4); */
 }
 
 .form-container h4 {
-  text-align: center;
   padding-bottom: 5%;
   font-family: "Oswald", sans-serif;
   font-size: 1.7em;
@@ -498,15 +501,15 @@ form {
 .form-container button {
   text-align: center;
   display: block;
-  margin: 2% auto;
   width: 30%;
   padding: 2% 1%;
   font-size: 1.2em;
   font-family: "Oswald", sans-serif;
   cursor: pointer;
-  border: 1px solid #4ea993;
+  border: 1px solid #777777;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  margin-top: 4%;
 }
 
 .form-container button:hover {
@@ -516,21 +519,22 @@ form {
 
 input,
 textarea {
-  border: 5px solid white;
-  -webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1),
+  border: 1px solid #777777;
+
+  /* -webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1),
     0 0 9px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 9px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 9px rgba(0, 0, 0, 0.1); */
   padding: 0.5em;
   background: rgba(255, 255, 255, 0.5);
   margin: 0 0 10px 0;
-  width: 100%;
+  width: 80%;
   font-weight: 300;
   font-size: 1.1em;
   font-family: "Raleway", sans-serif;
 }
 label {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin-bottom: 10px;
   padding-top: 2%;
 }
@@ -552,6 +556,9 @@ p.response {
 
   .hero-info {
     padding: 5% 5%;
+  }
+  .form-container {
+    flex-direction: column;
   }
 }
 
@@ -616,10 +623,10 @@ p.response {
     margin-bottom: 0;
     text-transform: inherit;
   }
-  input,
+  /* input,
   textarea {
     border: 2px solid white;
-  }
+  } */
   .toggle-btn {
     -ms-flex-item-align: baseline;
     align-self: baseline;

@@ -12,19 +12,13 @@ export default class MyForm extends React.Component {
     const { status } = this.state;
     return (
       <div className="form-container" id="contact">
-        <p>
-          Email me{" "}
-          <a href="mailto:eastongabrielle@gmail.com">
-            eastongabrielle@gmail.com
-          </a>
-        </p>
 
         <form
           onSubmit={this.submitForm}
           action="https://formspree.io/xaypeqqd"
           method="POST"
-        >
-          <h4>Get in touch with me!</h4>
+          >
+          <h4>Let's talk! Fill out this form.</h4>
           <label htmlFor="name">Name:</label>
           <input required type="text" name="name" />
           <label htmlFor="email">Email:</label>
@@ -43,6 +37,12 @@ export default class MyForm extends React.Component {
             <p className="response"> Ooops! There was an error.</p>
           )}
         </form>
+          <p>
+            Or just send me an email{" "}
+            <a href="mailto:eastongabrielle@gmail.com">
+              eastongabrielle@gmail.com
+            </a>
+          </p>
       </div>
     );
   }
