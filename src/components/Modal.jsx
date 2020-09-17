@@ -10,7 +10,10 @@ export default function Modal(props) {
 
   return (
     <div>
-      <div className={`modalBackground modalShowing-${modalState}`}>
+      <div
+        className={`modalBackground modalShowing-${modalState}`}
+        onClick={() => toggleModalState()}
+      >
         <div className="modalInner">
           <div className="modalImage">
             <img src={props.image} alt={props.title} />
@@ -25,9 +28,6 @@ export default function Modal(props) {
               className="exit"
               onClick={() => toggleModalState()}
             ></AiFillCloseCircle>
-            {/* <button className="exit" onClick={() => toggleModalState()}>
-              Close
-            </button> */}
           </div>
         </div>
       </div>
