@@ -1,5 +1,15 @@
 [
   {
+    "id": 0,
+    "title": "Gatsby",
+    "description": "Photography Website | Image Optimization | Contentful",
+    "technology": "Gatsby | Contentful",
+    "github": "https://github.com/GabrielleEaston/gnycphotography",
+    "url": "https://gonzalocisterna-photography.netlify.app/",
+    "image": "https://i.imgur.com/PrJ8GcL.png",
+    "gif": "https://imgur.com/q1wukuo.png"
+  },
+  {
     "id": 1,
     "title": "Chikalicious",
     "description": "Collaboration project with UX designers and developers. Developed with ReactJs and JavaScript. The user interface is implemented with CSS3. Responsive design for mobile screens.",
