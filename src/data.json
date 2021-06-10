@@ -7,48 +7,53 @@
     "github": "https://github.com/OurTimeForTech/shiftwork",
     "url": "https://shiftworkapp.herokuapp.com/",
     "image": "https://i.imgur.com/zrvI3Iy.png",
-    "gif": "https://imgur.com/q1wukuo.png"
+    "gif": "https://imgur.com/q1wukuo.png",
+    "takeaways": "takeway1"
   },
   {
     "id": 1,
     "title": "Chikalicious",
-    "description": "Collaboration project with UX designers and developers. Developed with ReactJs and JavaScript. The user interface is implemented with CSS3. Responsive design for mobile screens.",
+    "description": "Collaboration project with UX designers and developers.",
     "technology": "HTML | CSS | React | Zeplin | Responsive Design",
     "github": "https://github.com/GabrielleEaston/chikalicious",
     "url": "https://chikalicious.surge.sh",
     "image": "https://i.imgur.com/zrvI3Iy.png",
-    "gif": "https://imgur.com/q1wukuo.png"
+    "gif": "https://imgur.com/q1wukuo.png",
+    "takeaways": "takeway1"
   },
  
   {
     "id": 3,
     "title": "Tech Blog Prototype",
-    "description": "Tech Blog for newbies in tech world. Users can log in and create/edit/delete posts. Tech Blog is a full stack application. It was developed with Express backend API, ReactJS, JavaScript, React Router, Mongoose, MongoDB. An authentication system was developed with Express on backend and Json Web Token and local storage onthe client side. The user interface is build with fully CSS styling",
+    "description": "Tech Blog for newbies in tech world. Users can log in and create/edit/delete posts. Tech Blog is a full stack application.",
     "technology": "React | ExpressJS | JWT | MongoDB | Heroku | Mongoose | CSS | Responsive Design",
     "github": "https://github.com/GabrielleEaston/hytech",
     "url": "https://hytech.surge.sh",
     "image": "https://i.imgur.com/yIzvogW.png",
-    "gif": "https://imgur.com/D9fMCHB.png"
+    "gif": "https://imgur.com/D9fMCHB.png",
+    "takeaways": "takeway1"
   },
 
   {
     "id": 4,
     "title": "Photo Lover",
-    "description": "An App where you can Search Images and pin your favorites to the board. Developed with ReactJS, React Router, Jest Enzyme testing. All data is pulled from the Unsplash API and from it, implemented search features. The user interface is fully CSS3. Responsive on 3 screens.",
+    "description": "An App where you can Search Images and pin your favorites to the board.",
     "technology": "HTML | CSS | React | React Router | Unsplash API | Responsive Design",
     "github": "https://github.com/GabrielleEaston/digiEast",
     "url": "https://digi-east.netlify.app",
     "image": "https://i.imgur.com/b2WFSBN.png",
-    "gif": "https://imgur.com/TctaJSU.png"
+    "gif": "https://imgur.com/TctaJSU.png",
+    "takeaways": "takeway1"
   },
   {
     "id": 6,
     "title": "Community Center",
-    "description": "Redesign of community center outdated website with Bootstrap. Responsive on three screens.",
+    "description": "Redesign of a community center outdated website with Bootstrap.",
     "technology": "HTML | CSS | Bootstrap | JQuery | Responsive Design",
     "github": "https://github.com/GabrielleEaston/community-center-redesign",
     "url": "https://gabrielleeaston.github.io/community-center-redesign",
     "image": "https://i.imgur.com/1D420I2.png",
-    "gif": "https://imgur.com/WYuPAJA.png"
+    "gif": "https://imgur.com/WYuPAJA.png",
+    "takeaways": "takeway1"
   }
 ]

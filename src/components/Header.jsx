@@ -18,13 +18,13 @@ export default function Header({ toggleSideBar }) {
       </Link>
       <ul className="nav">
         <li>
-          <Link to="about">About</Link>
+          <a href="#about">About</a>
         </li>
         <li>
-          <Link to="/portfolio">Portfolio</Link>
+          <a href="#projects">Projects</a>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <a href="#contact">Contact</a>
         </li>
         <li>
           <a

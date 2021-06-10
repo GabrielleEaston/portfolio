@@ -1,5 +1,5 @@
 import React from "react";
-
+import { FaGithubSquare, FaLinkedin, FaEnvelope, FaDev } from "react-icons/fa"
 export default function Footer() {
   return (
     <footer>
@@ -10,7 +10,7 @@ export default function Footer() {
         rel="noopener noreferrer"
       >
         {" "}
-        <i className="fab fa-github footer-icons"></i>
+      <FaGithubSquare />
       </a>
       <a
         className="social-media"
@@ -19,10 +19,18 @@ export default function Footer() {
         rel="noopener noreferrer"
       >
         {" "}
-        <i className="fab fa-linkedin footer-icons"></i>
+        <FaLinkedin />
       </a>
       <a className="social-media" href="mailto:eastongabrielle@gmail.com">
-        <i className="fas fa-envelope footer-icons"></i>
+        <FaEnvelope />
+      </a>
+      <a
+        className="social-media"
+        href="https://dev.to/gabrielleeaston"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+      <FaDev />
       </a>
       <p>
         © 2020 by Gabrielle Easton All rights reserved.

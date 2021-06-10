@@ -2,7 +2,7 @@ import React from "react";
 import shot from "../assets/shot.png";
 export default function About() {
   return (
-    <div className="about-me">
+    <div className="about-me" id="about">
       <div className="shot">
         <img src={shot} alt="me" />
       </div>

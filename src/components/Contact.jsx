@@ -19,16 +19,13 @@ export default class MyForm extends React.Component {
           method="POST"
           >
           <h4>Let's talk! Fill out this form.</h4>
-          <label htmlFor="name">Name:</label>
-          <input required type="text" name="name" />
-          <label htmlFor="email">Email:</label>
-          <input required type="email" name="email" />
-          <label htmlFor="message">Message:</label>
-          <textarea type="text" rows="5" cols="33" name="message" />
+          <input required type="text" name="name" placeholder="Name" className="form-control" />
+          <input required type="email" name="email" placeholder="Email" className="form-control"/>
+          <textarea type="text" rows="5" cols="33" name="message" placeholder="Message" className="form-control"/>
           {status === "SUCCESS" ? (
             <p className="response">
               Thank you for getting in touch!
-              <br />I will get back to you ASP!
+              <br />I will get back to you as soon as possible!
             </p>
           ) : (
             <button>Send</button>
