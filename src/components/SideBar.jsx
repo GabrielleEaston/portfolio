@@ -1,6 +1,6 @@
 import React from "react";
 import { FaTimes } from "react-icons/fa";
-import { Link } from "react-router-dom";
+
 
 const Sidebar = ({ toggleSideBar, isOpen }) => {
   return (
@@ -11,19 +11,16 @@ const Sidebar = ({ toggleSideBar, isOpen }) => {
       <div className="side-container">
         <ul className="sidebar-links">
           <li>
-            <Link to="/about" onClick={toggleSideBar}>
-              About
-            </Link>
+          <a href="#about" onClick={toggleSideBar}>About</a>
+            
           </li>
           <li>
-            <Link to="/portfolio" onClick={toggleSideBar}>
-              Portfolio
-            </Link>
+          <a href="#projects" onClick={toggleSideBar}>Projects</a>
+           
           </li>
           <li>
-            <Link to="/contact" onClick={toggleSideBar}>
-              Contact
-            </Link>
+          <a href="#contact" onClick={toggleSideBar}>Contact</a>
+            
           </li>
           <li>
             <a
