@@ -25,7 +25,7 @@
   {
     "id": 3,
     "title": "Tech Blog Prototype",
-    "description": "Tech Blog for newbies in tech world. Users can log in and create/edit/delete posts. Tech Blog is a full stack application.",
+    "description": "Tech Blog for newbies in tech world. Users can log in and create/edit/delete posts.",
     "stack": ["React", "ExpressJS", "MongoDB", "Heroku", "Mongoose", "CSS", "Responsive Design"],
     "github": "https://github.com/GabrielleEaston/hytech",
     "url": "https://hytech.surge.sh",
