@@ -2,17 +2,7 @@
 :root {
   /* dark shades of primary color*/
   /* --clr-primary-1: hsl(43, 86%, 17%); */
-  --clr-primary-1: hsl(184, 91%, 17%);
-  --clr-primary-2: hsl(185, 84%, 25%);
-  --clr-primary-3: hsl(185, 81%, 29%);
-  --clr-primary-4: hsl(184, 77%, 34%);
   --clr-primary-5: #2caeba;
-  /* lighter shades of primary color */
-  --clr-primary-6: hsl(185, 57%, 50%);
-  --clr-primary-7: hsl(184, 65%, 59%);
-  --clr-primary-8: hsl(184, 80%, 74%);
-  --clr-primary-9: hsl(185, 94%, 87%);
-  --clr-primary-10: hsl(186, 100%, 94%);
   /* darkest grey - used for headings */
   --clr-grey-1: hsl(209, 61%, 16%);
   --clr-grey-3: hsl(209, 34%, 30%);
@@ -22,9 +12,6 @@
   --clr-grey-8: hsl(210, 31%, 80%);
   --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: hsl(210, 36%, 96%);
-  --clr-green-dark: hsl(125, 67%, 35%);
-  --clr-red-dark: hsl(360, 67%, 44%);
-  --clr-red-light: hsl(360, 71%, 66%);
   --clr-white: #fff;
   --ff-primary: "Raleway", sans-serif;
   --ff-secondary: "Oswald", sans-serif;
@@ -33,7 +20,7 @@
   --radius: 0.25rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  --max-width: 1170px;
+  --max-width: 900px;
   --fixed-width: 700px;
 }
 
@@ -51,7 +38,7 @@ img {
   display: block;
 }
 .App {
-  max-width: 900px;
+  max-width: var(--max-width);
   margin: 2% auto;
   padding: 2%;
 }
@@ -73,7 +60,7 @@ header {
   -ms-flex-pack: distribute;
   justify-content: space-around;
   width: 100%;
-  font-family: "Raleway", sans-serif;
+  font-family: var(--ff-primary);
   border-bottom: 1px solid #ddd;
   padding-bottom: 2%;
   margin: 0 auto 5% auto;
@@ -88,13 +75,12 @@ header {
   transition: background-color 250ms ease-in-out, transform 150ms ease;
   transition: background-color 250ms ease-in-out, transform 150ms ease,
     -webkit-transform 150ms ease;
-  color: blue;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 
 .logo img:hover {
-  background-color: #4ea993;
+  background-color: var(--clr-primary-5);
   border-radius: 50%;
   transform: translateY(-18px);
 }
@@ -114,7 +100,7 @@ header h1 {
   transition: 0.3s ease-in-out;
 }
 header h1:hover {
-  border-bottom: 1px solid #4ea993;
+  border-bottom: 1px solid var(--clr-primary-5);
 }
 /*///////////////////////////////
 ////////////Navigation///////////
@@ -134,7 +120,7 @@ header h1:hover {
   transition: 0.3s ease-in-out;
 }
 .toggle-btn:hover {
-  color: #4ea993;
+  color: var(--clr-primary-5);
   background: transparent;
 }
 
@@ -161,7 +147,7 @@ header h1:hover {
   }
 
   .nav a:hover {
-    border-bottom: 1px solid #4ea993;
+    border-bottom: 1px solid var(--clr-primary-5);
   }
 
   .nav a:active,
@@ -214,7 +200,7 @@ header h1:hover {
   font-family: "Raleway", sans-serif;
 }
 .sidebar-links li a:hover {
-  color: #4ea993;
+  color: var(--clr-primary-5);
 }
 .close-btn {
   position: absolute;
@@ -272,7 +258,7 @@ header h1:hover {
   letter-spacing: 8px;
   padding-bottom: 0.6em;
   font-size: 3em;
-  color: #4ea993;
+  color: var(--clr-primary-5);
   text-shadow: 2px 1px #1a6b63;
 }
 
@@ -280,8 +266,8 @@ header h1:hover {
   letter-spacing: 4px;
   font-weight: 800;
   padding-bottom: 2.2em;
-  font-size: 1em;
-  color: #777;
+  font-size: 1.6em;
+  color: #333333;
 }
 
 /*////////////////////////////////////
@@ -358,7 +344,6 @@ footer p {
 ///////////Buttons//////////
 ////////////////////////////*/
 
-button:hover,
 button:focus {
   background: #1d223c;
   color: #f3edf1;
@@ -381,7 +366,7 @@ a.social-media
 }
 
 a.social-media:hover {
-  color: #4ea993;
+  color: var(--clr-primary-5);
 }
 
 /*//////////////////////////////////////////////////
@@ -411,13 +396,13 @@ a.social-media:hover {
 .form-container a {
   margin-top: 5%;
   display: inline-block;
-  color: #2d1b4e;
+  color: #000000;
   -webkit-transition: text-shadow 0.3s ease-in-out;
   transition: text-shadow 0.3s ease-in-out;
 }
 
 .form-container a:hover {
-  color: #4ea993;
+  color: var(--clr-primary-5);
   text-shadow: 0 0 0.65px #4ea993, 0 0 0.65px #4ea993;
 }
 
@@ -468,24 +453,10 @@ form {
 
 .form-container button:hover {
   color: white;
-  background-color: #4ea993;
+  background-color: var(--clr-primary-5);
 }
 
-input,
-textarea {
-  border: 1px solid #888888;
-  padding: 0.5em;
-  background: rgba(255, 255, 255, 0.5);
-  margin: 0 0 10px 0;
-  width: 80%;
-  font-weight: 300;
-  font-size: 1.1em;
-  font-family: "Raleway", sans-serif;
-}
-label {
-  margin-bottom: 10px;
-  padding-top: 2%;
-}
+
 /* p.response {
   text-align: center;
 } */
@@ -550,10 +521,6 @@ label {
   .form-container h4 {
     font-size: 1.2em;
   }
-  label {
-    margin-bottom: 0;
-    text-transform: inherit;
-  }
   
   .toggle-btn {
     -ms-flex-item-align: baseline;
@@ -575,15 +542,15 @@ label {
     width: 95vw;
   }
 }
-/* added during recording */
-.underline {
+
+/* .underline {
   width: 5rem;
   height: 0.25rem;
   margin-bottom: 1.25rem;
   background: var(--clr-primary-5);
   margin-left: auto;
   margin-right: auto;
-}
+} */
 .section-title {
   font-size: 1.8em;
   padding: 0 2% 4% 0;
@@ -692,7 +659,7 @@ label {
   }
   .project-img {
     grid-column: 1 / span 8;
-    /* grid-column-end: 8; */
+    grid-column-end: 8;
     grid-row: 1 / 1;
     height: 30rem;
     border-radius: var(--radius);

@@ -17,7 +17,7 @@ export default function About() {
           applications.
         </p>
 
-        <p style={{ marginTop: 10, color: "#4ea993" }}>
+        <p style={{ marginTop: 10, color: "#2caeba" }}>
           &#9733;Let's build something together
         </p>
 
