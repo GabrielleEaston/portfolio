@@ -19,7 +19,12 @@ export default class Project extends Component {
           <div className="project-info">
             <span className="project-number">0{index + 1}.</span>
             <h3>{project.title}</h3>
-            <p className="project-desc">{project.description}</p>
+              <p className="project-desc">{project.description}</p>
+              <div className="project-stack">
+          {project.stack.map(item => {
+            return <span>{item}</span>
+          })}
+        </div>
             <div className="project-links">
               <a href={project.github}>
                 <FaGithubSquare className="project-icon" />

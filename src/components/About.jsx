@@ -21,14 +21,23 @@ export default function About() {
           &#9733;Let's build something together
         </p>
 
-        <p style={{ marginTop: 10 }}>
-          Favorites: React | Gatsby | CSS | CSS Modules | GraphQL | Responsive
-          Design | Debugging | Research | Bootstrap |
-        </p>
-        <p style={{ marginTop: 15 }}>
-          Express | MongoDB | Ruby | Ruby on Rails | Heroku | JQuery | PHP |
-          PostesQL | NodeJs
-        </p>
+      
+        <div className="about-stack">
+          <span>Javascript</span>
+          <span>React</span>
+          <span>Gatsby</span>
+          <span>CSS</span>
+          <span>SASS</span>
+          <span>GraphQL</span>
+          <span>Bootstrap</span>
+          <span>Debugging</span>
+          <span>Express</span>
+          <span>MongoDB</span>
+          <span>Ruby on Rails </span>
+          <span>PostesQL</span>
+          <span>NodeJs</span>
+          <span>JQuery</span>
+        </div>
       </div>
     </div>
   );
