@@ -1,6 +1,6 @@
 [
   {
-    "id": 0,
+    "id": 1,
     "title": "ShiftWork App",
     "description": "Are you a shiftworker looking for last-minute gigs? Or a business owner with open shifts to fill? The Shiftwork app can connect you to shift opportunities or shiftworkers!",
     "stack": ["Rails", "Postgresql", "Bootsrtrap"],
@@ -11,7 +11,7 @@
     "takeaways": "takeway1"
   },
   {
-    "id": 1,
+    "id": 2,
     "title": "Chikalicious",
     "description": "Collaboration project with UX designers and developers.",
     "stack": ["HTML", "CSS", "React", "Zeplin", "Responsive Design"],
@@ -46,7 +46,7 @@
     "takeaways": "takeway1"
   },
   {
-    "id": 6,
+    "id": 5,
     "title": "Community Center",
     "description": "Redesign of a community center outdated website with Bootstrap.",
     "stack": ["HTML", "CSS", "Bootstrap", "JQuery", "Responsive Design"],
