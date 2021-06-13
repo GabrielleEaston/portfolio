@@ -81,7 +81,7 @@ header {
 }
 
 .logo img:hover {
-  background-color: var(--clr-primary-5);
+  box-shadow: 0px 2px var(--clr-primary-5);
   border-radius: 50%;
   transform: translateY(-18px);
 }
@@ -101,7 +101,7 @@ header h1 {
   transition: 0.3s ease-in-out;
 }
 header h1:hover {
-  border-bottom: 1px solid var(--clr-primary-5);
+  box-shadow: 0px 2px var(--clr-primary-5);
 }
 /*///////////////////////////////
 ////////////Navigation///////////
@@ -117,8 +117,8 @@ header h1:hover {
   border-color: transparent;
   color: #777;
   cursor: pointer;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
 }
 .toggle-btn:hover {
   color: var(--clr-primary-5);
@@ -143,12 +143,13 @@ header h1:hover {
     color: rgb(109, 105, 105);
     background-color: transparent;
     padding: 0.6em 0.9em;
-    -webkit-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
   }
 
   .nav a:hover {
-    border-bottom: 1px solid var(--clr-primary-5);
+    color: var(--clr-primary-5);
+    box-shadow: 0px 2px var(--clr-primary-5);
   }
 
   .nav a:active,
