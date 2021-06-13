@@ -45,6 +45,7 @@ img {
 main {
   padding: 2% 0;
 }
+
 /*/////////////////////////////////
 ////////////Header////////////////
 //////////////////////////////////*/
@@ -454,14 +455,10 @@ form {
 }
 
 
-/* p.response {
-  text-align: center;
-} */
-
 /*///////////////////////////////////////////
 ///////////////Media queries///////////////
 ////////////////////////////////////////////*/
-
+/* 
 @media only screen and (max-device-width: 768px) {
   .me-info p {
     width: 80%;
@@ -476,17 +473,9 @@ form {
   .form-container {
     flex-direction: column;
   }
-}
+} */
 
-@media only screen and (max-device-width: 550px) /* and (max-device-width: 812px) */ /* and (-webkit-device-pixel-ratio: 3) */ {
-  header,
-  .nav {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-
+@media only screen and (max-device-width: 768px) {
   .hero-info {
     padding: 5% 5%;
   }
@@ -510,6 +499,9 @@ form {
   
   span.hover {
     display: none;
+  }
+  .form-container {
+    flex-direction: column;
   }
   form {
     width: 80%;
@@ -539,15 +531,6 @@ form {
     width: 95vw;
   }
 }
-
-/* .underline {
-  width: 5rem;
-  height: 0.25rem;
-  margin-bottom: 1.25rem;
-  background: var(--clr-primary-5);
-  margin-left: auto;
-  margin-right: auto;
-} */
 .section-title {
   font-size: 1.8em;
   padding: 0 2% 4% 0;
