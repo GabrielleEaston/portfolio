@@ -374,10 +374,7 @@ a.social-media:hover {
 /////////////////////////////////////////////////////*/
 
 .form-container {
-  /* padding: 1% 0 2% 0; */
-  /* text-align: center; */
   display: flex;
-  /* flex-direction: row-reverse; */
 }
 
 .form-container h3 {
@@ -583,19 +580,15 @@ form {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom right, var(--clr-primary-5), #222);
-  opacity: 0.85;
-  transition: var(--transition);
 }
-.project:hover .project-img::after {
-  opacity: 0;
-}
+
 .project-info {
   background: var(--clr-white);
   padding: 1rem 2rem;
   border-bottom-left-radius: var(--radius);
   border-bottom-right-radius: var(--radius);
 }
+
 .project-number {
   display: inline-block;
   font-size: 1.25rem;
@@ -640,7 +633,7 @@ form {
   transition: var(--transition);
 }
 .project-icon:hover {
-  color: var(--clr-primary-1);
+  color: #000000;;
 }
 @media screen and (min-width: 576px) {
   .project-img {
