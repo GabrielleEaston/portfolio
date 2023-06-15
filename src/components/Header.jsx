@@ -28,7 +28,7 @@ export default function Header({ toggleSideBar }) {
         </li>
         <li>
           <a
-            href="https://drive.google.com/file/d/16od-Rp8fRxlb41OYA5v70sKsQ1e4o-qG/view?usp=sharing"
+            href="https://resume.io/r/Sw4nwAqMw"
             target="_blank"
             rel="noopener noreferrer"
           >
